@@ -1,0 +1,807 @@
+<!DOCTYPE html><html lang="th"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_dashboard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"secondary-fixed-dim":"#68dba9","surface-container-high":"#dce9ff","on-tertiary-fixed-variant":"#653e00","primary-container":"#17365d","tertiary":"#311c00","error-container":"#ffdad6","primary-fixed":"#d5e3ff","surface-container-low":"#eff4ff","on-tertiary-container":"#dd8d00","tertiary-fixed":"#ffddb8","secondary-fixed":"#85f8c4","on-primary-fixed-variant":"#2b486f","surface":"#f8f9ff","on-background":"#0b1c30","primary-fixed-dim":"#acc8f7","on-primary":"#ffffff","on-surface-variant":"#43474e","outline":"#74777f","tertiary-fixed-dim":"#ffb95f","inverse-on-surface":"#eaf1ff","secondary":"#006c4a","on-secondary-fixed":"#002114","surface-container":"#e5eeff","tertiary-container":"#4e2f00","on-primary-container":"#84a0cd","surface-dim":"#cbdbf5","secondary-container":"#82f5c1","on-secondary-container":"#00714e","on-tertiary-fixed":"#2a1700","outline-variant":"#c4c6cf","primary":"#002043","surface-bright":"#f8f9ff","surface-container-highest":"#d3e4fe","on-error-container":"#93000a","on-surface":"#0b1c30","on-tertiary":"#ffffff","surface-tint":"#435f89","on-primary-fixed":"#001c3b","on-secondary-fixed-variant":"#005137","background":"#f8f9ff","surface-variant":"#d3e4fe","error":"#ba1a1a","on-secondary":"#ffffff","inverse-surface":"#213145","on-error":"#ffffff","surface-container-lowest":"#ffffff","inverse-primary":"#acc8f7"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-md":"1rem","space-sm":"0.5rem","gutter":"1rem","gutter-desktop":"1.5rem","space-xl":"2rem","margin-tablet":"1.5rem","space-lg":"1.5rem","margin":"1rem","margin-desktop":"2rem","gutter-tablet":"1rem","space-xs":"0.25rem"},"fontFamily":{"display-lg":["Plus Jakarta Sans"],"body-md":["Inter"],"body-lg":["Inter"],"label-md":["Inter"],"headline-md":["Plus Jakarta Sans"],"data-mono":["Inter"],"body-sm":["Inter"],"headline-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-sm":["Inter"]},"fontSize":{"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"data-mono":["13px",{"lineHeight":"18px","letterSpacing":"-0.01em","fontWeight":"500"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"600"}],"display-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-lg-mobile":["22px",{"lineHeight":"30px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"16px","letterSpacing":"0.03em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between"><div class="flex flex-col"><div class="h-16 px-space-md flex items-center gap-space-sm bg-surface-container-low"><img alt="DSDA OBE System Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAyLOq9L_kc2juXNPSlrQvImVCpyrtlrQdON5n1PqACX8f4ySQ5DMK-f9VGPQeeNP_uHwzdytApQ2UD0RiSotfCFb8RstNTN1VD-CqM0fSncwWM8ZTZtNWiZhv1Lq7fAl9foxiVRXgxndlM3Bsg9i24DaygZomMyrsufPAjlzFHY4LyChWXs50mIA0N1OtfEPaluWXl237iJBd3L7FXeyDBn0VtbcJmI2OzXQ4A4vs"><div class="flex flex-col min-w-0"><span class="font-headline-sm text-headline-sm text-primary truncate leading-tight">DSDA OBE</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">ระบบประเมินผลลัพธ์การเรียนรู้</span></div></div><div class="px-space-md py-space-sm bg-surface-container-low"><div class="flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant"><span class="material-symbols-outlined text-[16px]">school</span><span>หลักสูตร วท.บ. วิทยาการข้อมูล (DSDA)</span></div></div><nav class="flex flex-col gap-space-xs px-space-sm py-space-md" data-active-classes="bg-primary-container text-on-primary font-bold"><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="course-grade" href="#"><span class="material-symbols-outlined text-[20px]">edit_note</span><span class="font-label-md text-label-md">กรอกคะแนนรายวิชา</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-lg transition-all bg-primary-container text-on-primary font-bold" data-path="program-dashboard" href="#" style="background: linear-gradient(135deg, rgb(236, 72, 153), rgb(219, 39, 119)); color: rgb(255, 255, 255); box-shadow: rgba(236, 72, 153, 0.35) 0px 4px 14px;"><span class="material-symbols-outlined text-[20px]">analytics</span><span class="font-label-md text-label-md">สรุปผล PLO ภาพรวมหลักสูตร</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="student-dashboard" href="#"><span class="material-symbols-outlined text-[20px]">person_search</span><span class="font-label-md text-label-md">สรุปผล PLO รายบุคคล</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="curriculum-matrix" href="#"><span class="material-symbols-outlined text-[20px]">grid_view</span><span class="font-label-md text-label-md">โครงสร้างหลักสูตรและน้ำหนัก PLO</span></a></nav></div><div class="p-space-md bg-surface-container-low m-space-sm rounded-xl"><div class="flex items-center justify-between mb-space-xs"><span class="font-label-sm text-label-sm text-on-surface-variant">สิทธิ์การใช้งาน (Role)</span><span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded bg-secondary-container text-on-secondary-container">ผู้สอน / Chair</span></div><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><div class="flex flex-col min-w-0 flex-1"><span class="font-label-md text-label-md text-on-surface font-semibold truncate">อ.ดร. นภนต์ วิทยากร</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">DSDA Faculty Admin</span></div><button class="text-on-surface-variant hover:text-primary" type="button"><span class="material-symbols-outlined text-[18px]">swap_horiz</span></button></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-gutter-desktop"><div class="flex items-center gap-space-md"><img alt="DSDA OBE System Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAyLOq9L_kc2juXNPSlrQvImVCpyrtlrQdON5n1PqACX8f4ySQ5DMK-f9VGPQeeNP_uHwzdytApQ2UD0RiSotfCFb8RstNTN1VD-CqM0fSncwWM8ZTZtNWiZhv1Lq7fAl9foxiVRXgxndlM3Bsg9i24DaygZomMyrsufPAjlzFHY4LyChWXs50mIA0N1OtfEPaluWXl237iJBd3L7FXeyDBn0VtbcJmI2OzXQ4A4vs"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-tight">ระบบบันทึกและประเมินผลลัพธ์การเรียนรู้ OBE</span><span class="font-label-sm text-label-sm text-on-surface-variant">Outcome-Based Grading &amp; Program Learning Outcome Analytics</span></div></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-xs rounded-lg"><span class="material-symbols-outlined text-[18px] text-on-surface-variant">calendar_today</span><span class="font-label-sm text-label-sm text-on-surface-variant">ปีการศึกษา:</span><select class="bg-transparent font-label-md text-label-md text-on-surface font-medium focus:outline-none cursor-pointer"><option selected="" value="2569">2569</option><option value="2568">2568</option><option value="2567">2567</option></select></div><div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-xs rounded-lg"><span class="material-symbols-outlined text-[18px] text-on-surface-variant">event_repeat</span><span class="font-label-sm text-label-sm text-on-surface-variant">ภาคการศึกษา:</span><select class="bg-transparent font-label-md text-label-md text-on-surface font-medium focus:outline-none cursor-pointer"><option selected="" value="1">ภาคต้น (First Semester)</option><option value="2">ภาคปลาย (Second Semester)</option><option value="3">ภาคฤดูร้อน (Summer)</option></select></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="relative pt-16 w-full bg-surface px-gutter-desktop py-space-lg"><div class="flex flex-col w-full">
+<!-- Command Banner & Quick Filter Strip -->
+<div class="relative w-full rounded-2xl bg-surface-container-lowest p-gutter-desktop shadow-sm mb-space-lg overflow-hidden">
+<div class="absolute right-0 top-0 -mt-10 -mr-10 w-96 h-96 bg-primary-fixed/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute left-1/3 bottom-0 -mb-12 w-64 h-64 bg-secondary-container/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col xl:flex-row xl:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm tracking-wide">
+            AUN-QA &amp; OBE Continuous Quality Improvement
+          </span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">• อัปเดตล่าสุด: สิ้นสุดภาคต้น 2569</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+          PLO Achievement Dashboard – ภาพรวมหลักสูตร วท.บ. วิทยาการข้อมูลและการวิเคราะห์ข้อมูล (DSDA)
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          การประเมินสมรรถนะสะสมตามเกณฑ์มาตรฐานผลลัพธ์การเรียนรู้ระดับหลักสูตร (Program Learning Outcomes) ประจำรอบการศึกษา 2569
+        </p>
+</div>
+<!-- Action Tools -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high text-primary font-label-md text-label-md transition-colors shadow-sm" id="btnExportTqf" style="border: 1px solid rgb(186, 230, 253); color: rgb(2, 132, 199);">
+<span class="material-symbols-outlined text-[18px]">description</span>
+<span>ส่งออกรายงาน มคอ.7 / AUN-QA</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container-high hover:bg-surface-dim text-primary font-label-md text-label-md transition-colors shadow-sm" id="btnDownloadPdf" style="border: 1px solid rgb(186, 230, 253); color: rgb(2, 132, 199);">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>ดาวน์โหลดสรุปผล PDF</span>
+</button>
+<button class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md transition-all shadow-sm" style="background: linear-gradient(135deg, rgb(236, 72, 153), rgb(2, 132, 199)); color: rgb(255, 255, 255); box-shadow: rgba(236, 72, 153, 0.3) 0px 4px 12px;">
+<span class="material-symbols-outlined text-[18px]">account_tree</span>
+<span>เจาะลึกรายวิชาที่ส่งผลต่อ PLO</span>
+</button>
+</div>
+</div>
+<!-- Filter Bar Component -->
+<div class="relative z-10 mt-space-lg pt-space-md bg-surface-container-low/70 rounded-xl p-space-md flex flex-wrap items-center justify-between gap-space-md">
+<div class="flex flex-wrap items-center gap-space-md">
+<!-- Filter: Cohort / Year -->
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">groups</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">ชั้นปีนิสิต:</span>
+<div class="inline-flex bg-surface-container-lowest p-0.5 rounded-lg shadow-sm">
+<button class="cohort-pill px-space-sm py-1 rounded-md text-on-primary bg-primary font-label-sm text-label-sm transition-all" data-filter-year="all">ทั้งหมด</button>
+<button class="cohort-pill px-space-sm py-1 rounded-md text-on-surface-variant hover:text-primary font-label-sm text-label-sm transition-all" data-filter-year="1">ปี 1</button>
+<button class="cohort-pill px-space-sm py-1 rounded-md text-on-surface-variant hover:text-primary font-label-sm text-label-sm transition-all" data-filter-year="2">ปี 2</button>
+<button class="cohort-pill px-space-sm py-1 rounded-md text-on-surface-variant hover:text-primary font-label-sm text-label-sm transition-all" data-filter-year="3">ปี 3</button>
+<button class="cohort-pill px-space-sm py-1 rounded-md text-on-surface-variant hover:text-primary font-label-sm text-label-sm transition-all" data-filter-year="4">ปี 4</button>
+</div>
+</div>
+<!-- Filter: Status -->
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">verified</span>
+<span class="font-label-md text-label-md text-on-surface font-semibold">สถานะผลลัพธ์:</span>
+<select class="bg-surface-container-lowest px-space-sm py-1 rounded-lg font-label-md text-label-md text-on-surface focus:outline-none shadow-sm cursor-pointer" id="statusFilter">
+<option value="all">ทุกสถานะ (All Status)</option>
+<option value="pass">ผ่านเกณฑ์ขั้นต่ำ (≥ 70%)</option>
+<option value="watch">เฝ้าระวังและพัฒนาเพิ่ม (&lt; 70%)</option>
+</select>
+</div>
+</div>
+<!-- Quick KPI Metadata Tag -->
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span>เกณฑ์อ้างอิงความสำเร็จตามมติหลักสูตร: <strong>70.00%</strong></span>
+</div>
+</div>
+</div>
+<!-- Top 4 KPI Executive Metric Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md mb-space-lg">
+<!-- Card 1 -->
+<div class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col justify-between" style="border-top: 3px solid rgb(14, 165, 233);">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">ประชากรนิสิตในระบบ</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-0.5">จำนวนนิสิตทั้งหมด</h3>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">badge</span>
+</div>
+</div>
+<div class="mt-space-md flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-primary tracking-tight">33</span>
+<span class="font-body-md text-body-md text-on-surface-variant font-medium">คน</span>
+</div>
+<div class="mt-space-xs pt-space-xs flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm bg-surface-container-low px-space-xs py-1 rounded">
+<span>ทะเบียนปีการศึกษา 2569</span>
+<span class="text-secondary font-semibold">Active 100%</span>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col justify-between" style="border-top: 3px solid rgb(56, 189, 248);">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">การประเมินตามเกณฑ์แผน</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-0.5">ประเมินแล้วตามรอบ</h3>
+</div>
+<div class="w-10 h-10 rounded-lg bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-[22px]">fact_check</span>
+</div>
+</div>
+<div class="mt-space-md flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-primary tracking-tight">3</span>
+<span class="font-body-md text-body-md text-on-surface-variant font-medium">คน</span>
+<span class="ml-space-xs px-1.5 py-0.5 rounded bg-primary-fixed-dim font-data-mono text-label-sm text-on-primary-fixed font-bold">9.09%</span>
+</div>
+<div class="mt-space-xs pt-space-xs flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm bg-surface-container-low px-space-xs py-1 rounded">
+<span>กำลังศึกษาตามรอบประเมินสมบูรณ์</span>
+<span class="text-primary font-semibold">3/33 คน</span>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col justify-between" style="border-top: 3px solid rgb(236, 72, 153);">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">เกณฑ์สูงสุด (Excellence)</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-0.5">บรรลุครบทุก PLO</h3>
+</div>
+<div class="w-10 h-10 rounded-lg bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[22px]">workspace_premium</span>
+</div>
+</div>
+<div class="mt-space-md flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-secondary tracking-tight">1</span>
+<span class="font-body-md text-body-md text-on-surface-variant font-medium">คน</span>
+<span class="ml-space-xs px-1.5 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-data-mono text-label-sm font-bold">100% Achieved</span>
+</div>
+<div class="mt-space-xs pt-space-xs flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm bg-surface-container-low px-space-xs py-1 rounded truncate">
+<span class="truncate">นายจักรินทร์ เพ็งวัน (ปี 4)</span>
+<span class="material-symbols-outlined text-secondary text-[16px]">check_circle</span>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="rounded-xl bg-surface-container-lowest p-space-md shadow-sm hover:shadow-md transition-shadow relative overflow-hidden flex flex-col justify-between" style="border-top: 3px solid rgb(244, 63, 94);">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Benchmark มคอ.</span>
+<h3 class="font-headline-sm text-headline-sm text-primary mt-0.5">อัตราการบรรลุ PLO รวม</h3>
+</div>
+<div class="w-10 h-10 rounded-lg bg-error-container flex items-center justify-center text-on-error-container">
+<span class="material-symbols-outlined text-[22px]">trending_up</span>
+</div>
+</div>
+<div class="mt-space-md flex items-baseline gap-space-xs">
+<span class="font-display-lg text-display-lg text-primary tracking-tight">68.5%</span>
+<span class="font-body-md text-body-md text-on-surface-variant font-medium">/ 70.0%</span>
+</div>
+<div class="mt-space-xs pt-space-xs flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm bg-surface-container-low px-space-xs py-1 rounded">
+<span>เกณฑ์เป้าหมายหลักสูตร 70.00%</span>
+<span class="text-error font-semibold">-1.5%</span>
+</div>
+</div>
+</div>
+<!-- Interactive Visual Charts Section -->
+<div class="grid grid-cols-1 xl:grid-cols-2 gap-space-md mb-space-lg">
+<!-- Chart 1: Achievement สะสม (%) เฉลี่ยของนิสิต เทียบกับเป้าหมาย (70%) -->
+<div class="rounded-2xl bg-surface-container-lowest p-gutter-desktop shadow-sm flex flex-col justify-between">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">bar_chart</span>
+<h2 class="font-headline-md text-headline-md text-primary">Achievement สะสม (%) เฉลี่ย เทียบเป้าหมาย (70%)</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            ค่าเฉลี่ยผลสัมฤทธิ์สะสมของนิสิตราย PLO โดยมีเส้นประสีแดงระบุ Benchmark มาตรฐาน 70%
+          </p>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 font-label-sm text-label-sm">
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-3 rounded bg-secondary" style="background-color: rgb(14, 165, 233);"></span>
+<span>≥ 70% ผ่าน</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-3 h-3 rounded bg-on-tertiary-container" style="background-color: rgb(236, 72, 153);"></span>
+<span>&lt; 70% เฝ้าระวัง</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-4 h-0.5 bg-error border-b border-dashed border-error"></span>
+<span class="text-error font-semibold">Target 70%</span>
+</div>
+</div>
+</div>
+<!-- Custom High-Precision SVG Bar Chart -->
+<div class="relative w-full h-72 flex flex-col justify-end pt-6 pb-2">
+<svg class="w-full h-full overflow-visible" preserveAspectRatio="none" viewBox="0 0 620 220">
+<!-- Background Grid lines -->
+<line class="text-surface-container-highest" stroke="currentColor" stroke-width="1" x1="40" x2="600" y1="20" y2="20"></line>
+<text class="text-on-surface-variant font-data-mono text-[10px]" fill="currentColor" text-anchor="end" x="32" y="24">100%</text>
+<line class="text-surface-container-highest" stroke="currentColor" stroke-width="1" x1="40" x2="600" y1="65" y2="65"></line>
+<text class="text-on-surface-variant font-data-mono text-[10px]" fill="currentColor" text-anchor="end" x="32" y="69">75%</text>
+<!-- 70% Benchmark Line -->
+<line class="text-error" stroke="currentColor" stroke-dasharray="4 4" stroke-width="2" x1="40" x2="600" y1="74" y2="74" style="color: rgb(236, 72, 153); stroke: rgb(236, 72, 153);"></line>
+<text class="text-error font-data-mono text-[11px] font-bold" fill="currentColor" x="605" y="77" style="color: rgb(236, 72, 153); fill: rgb(236, 72, 153);">70% (Goal)</text>
+<line class="text-surface-container-highest" stroke="currentColor" stroke-width="1" x1="40" x2="600" y1="110" y2="110"></line>
+<text class="text-on-surface-variant font-data-mono text-[10px]" fill="currentColor" text-anchor="end" x="32" y="114">50%</text>
+<line class="text-surface-container-highest" stroke="currentColor" stroke-width="1" x1="40" x2="600" y1="155" y2="155"></line>
+<text class="text-on-surface-variant font-data-mono text-[10px]" fill="currentColor" text-anchor="end" x="32" y="159">25%</text>
+<line class="text-surface-container-highest" stroke="currentColor" stroke-width="1" x1="40" x2="600" y1="200" y2="200"></line>
+<text class="text-on-surface-variant font-data-mono text-[10px]" fill="currentColor" text-anchor="end" x="32" y="204">0%</text>
+<!-- Bars: 9 PLOs. (Height formula: 200 - (val/100)*180) -->
+<!-- PLO1 (75%) -> y=65, h=135 -->
+<g class="group cursor-pointer">
+<rect class="fill-secondary hover:fill-secondary-container transition-all" height="135" rx="4" width="44" x="58" y="65" style="fill: rgb(14, 165, 233);"></rect>
+<text class="font-data-mono text-[11px] font-bold fill-primary" text-anchor="middle" x="80" y="58">75%</text>
+<text class="font-headline-sm text-[12px] font-semibold fill-on-surface" text-anchor="middle" x="80" y="216">PLO1</text>
+</g>
+<!-- PLO2 (75%) -->
+<g class="group cursor-pointer">
+<rect class="fill-secondary hover:fill-secondary-container transition-all" height="135" rx="4" width="44" x="118" y="65" style="fill: rgb(14, 165, 233);"></rect>
+<text class="font-data-mono text-[11px] font-bold fill-primary" text-anchor="middle" x="140" y="58">75%</text>
+<text class="font-headline-sm text-[12px] font-semibold fill-on-surface" text-anchor="middle" x="140" y="216">PLO2</text>
+</g>
+<!-- PLO3 (75%) -->
+<g class="group cursor-pointer">
+<rect class="fill-secondary hover:fill-secondary-container transition-all" height="135" rx="4" width="44" x="178" y="65" style="fill: rgb(14, 165, 233);"></rect>
+<text class="font-data-mono text-[11px] font-bold fill-primary" text-anchor="middle" x="200" y="58">75%</text>
+<text class="font-headline-sm text-[12px] font-semibold fill-on-surface" text-anchor="middle" x="200" y="216">PLO3</text>
+</g>
+<!-- PLO4 (75%) -->
+<g class="group cursor-pointer">
+<rect class="fill-secondary hover:fill-secondary-container transition-all" height="135" rx="4" width="44" x="238" y="65" style="fill: rgb(14, 165, 233);"></rect>
+<text class="font-data-mono text-[11px] font-bold fill-primary" text-anchor="middle" x="260" y="58">75%</text>
+<text class="font-headline-sm text-[12px] font-semibold fill-on-surface" text-anchor="middle" x="260" y="216">PLO4</text>
+</g>
+<!-- PLO5 (50%) -> y=110, h=90 -->
+<g class="group cursor-pointer">
+<rect class="fill-on-tertiary-container hover:opacity-80 transition-all" height="90" rx="4" width="44" x="298" y="110" style="fill: rgb(236, 72, 153);"></rect>
+<text class="font-data-mono text-[11px] font-bold fill-on-tertiary-container" text-anchor="middle" x="320" y="103">50%</text>
+<text class="font-headline-sm text-[12px] font-semibold fill-on-surface" text-anchor="middle" x="320" y="216">PLO5</text>
+</g>
+<!-- PLO6 (50%) -->
+<g class="group cursor-pointer">
+<rect class="fill-on-tertiary-container hover:opacity-80 transition-all" height="90" rx="4" width="44" x="358" y="110" style="fill: rgb(236, 72, 153);"></rect>
+<text class="font-data-mono text-[11px] font-bold fill-on-tertiary-container" text-anchor="middle" x="380" y="103">50%</text>
+<text class="font-headline-sm text-[12px] font-semibold fill-on-surface" text-anchor="middle" x="380" y="216">PLO6</text>
+</g>
+<!-- PLO7 (50%) -->
+<g class="group cursor-pointer">
+<rect class="fill-on-tertiary-container hover:opacity-80 transition-all" height="90" rx="4" width="44" x="418" y="110" style="fill: rgb(236, 72, 153);"></rect>
+<text class="font-data-mono text-[11px] font-bold fill-on-tertiary-container" text-anchor="middle" x="440" y="103">50%</text>
+<text class="font-headline-sm text-[12px] font-semibold fill-on-surface" text-anchor="middle" x="440" y="216">PLO7</text>
+</g>
+<!-- PLO8 (75%) -->
+<g class="group cursor-pointer">
+<rect class="fill-secondary hover:fill-secondary-container transition-all" height="135" rx="4" width="44" x="478" y="65" style="fill: rgb(14, 165, 233);"></rect>
+<text class="font-data-mono text-[11px] font-bold fill-primary" text-anchor="middle" x="500" y="58">75%</text>
+<text class="font-headline-sm text-[12px] font-semibold fill-on-surface" text-anchor="middle" x="500" y="216">PLO8</text>
+</g>
+<!-- PLO9 (75%) -->
+<g class="group cursor-pointer">
+<rect class="fill-secondary hover:fill-secondary-container transition-all" height="135" rx="4" width="44" x="538" y="65" style="fill: rgb(14, 165, 233);"></rect>
+<text class="font-data-mono text-[11px] font-bold fill-primary" text-anchor="middle" x="560" y="58">75%</text>
+<text class="font-headline-sm text-[12px] font-semibold fill-on-surface" text-anchor="middle" x="560" y="216">PLO9</text>
+</g>
+</svg>
+</div>
+<div class="mt-space-sm pt-space-xs flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm bg-surface-container-low px-space-md py-1.5 rounded-lg">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-on-tertiary-container">warning</span>
+<span>PLO5, PLO6, PLO7 อยู่ต่ำกว่าเกณฑ์ 70% ต้องทบทวนแผนพัฒนาการสอนเชิงรุก</span>
+</span>
+<a class="text-primary font-semibold hover:underline flex items-center gap-0.5" href="#ploTable">
+<span>ดูตารางวิเคราะห์</span>
+<span class="material-symbols-outlined text-[14px]">arrow_downward</span>
+</a>
+</div>
+</div>
+<!-- Chart 2: สัดส่วนนิสิตที่บรรลุเป้าหมายตามราย PLO (%) -->
+<div class="rounded-2xl bg-surface-container-lowest p-gutter-desktop shadow-sm flex flex-col justify-between">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm mb-space-md">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">donut_large</span>
+<h2 class="font-headline-md text-headline-md text-primary">สัดส่วนนิสิตที่บรรลุเป้าหมายตามราย PLO (%)</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            ร้อยละของนิสิตที่มีระดับการบรรลุแต่ละผลลัพธ์การเรียนรู้ถึงเกณฑ์ของหลักสูตร
+          </p>
+</div>
+<div class="flex items-center gap-space-sm font-label-sm text-label-sm shrink-0">
+<span class="px-2 py-0.5 rounded bg-surface-container font-medium text-primary">กลุ่มตัวอย่าง 33 คน</span>
+</div>
+</div>
+<!-- Cohort Attainment Horizontal Progression Grid -->
+<div class="flex flex-col gap-2.5 my-auto py-1">
+<!-- PLO1..4 Row Representation -->
+<div class="grid grid-cols-12 items-center gap-space-sm">
+<div class="col-span-2 font-headline-sm text-[13px] text-primary font-semibold">PLO1 - วิทยาการคณิต</div>
+<div class="col-span-8 flex items-center">
+<div class="w-full bg-surface-container h-4 rounded-full overflow-hidden flex">
+<div class="bg-secondary h-full rounded-full" style="width: 72.7%; background: linear-gradient(90deg, rgb(56, 189, 248), rgb(14, 165, 233));"></div>
+</div>
+</div>
+<div class="col-span-2 text-right font-data-mono text-label-md text-primary font-bold">72.7% (24/33)</div>
+</div>
+<div class="grid grid-cols-12 items-center gap-space-sm">
+<div class="col-span-2 font-headline-sm text-[13px] text-primary font-semibold">PLO2 - ปัญหาทางธุรกิจ</div>
+<div class="col-span-8 flex items-center">
+<div class="w-full bg-surface-container h-4 rounded-full overflow-hidden flex">
+<div class="bg-secondary h-full rounded-full" style="width: 69.7%; background: linear-gradient(90deg, rgb(56, 189, 248), rgb(14, 165, 233));"></div>
+</div>
+</div>
+<div class="col-span-2 text-right font-data-mono text-label-md text-primary font-bold">69.7% (23/33)</div>
+</div>
+<div class="grid grid-cols-12 items-center gap-space-sm">
+<div class="col-span-2 font-headline-sm text-[13px] text-primary font-semibold">PLO3 - การเตรียมข้อมูล</div>
+<div class="col-span-8 flex items-center">
+<div class="w-full bg-surface-container h-4 rounded-full overflow-hidden flex">
+<div class="bg-secondary h-full rounded-full" style="width: 78.8%; background: linear-gradient(90deg, rgb(56, 189, 248), rgb(14, 165, 233));"></div>
+</div>
+</div>
+<div class="col-span-2 text-right font-data-mono text-label-md text-primary font-bold">78.8% (26/33)</div>
+</div>
+<div class="grid grid-cols-12 items-center gap-space-sm">
+<div class="col-span-2 font-headline-sm text-[13px] text-primary font-semibold">PLO4 - วิเคราะห์เชิงลึก</div>
+<div class="col-span-8 flex items-center">
+<div class="w-full bg-surface-container h-4 rounded-full overflow-hidden flex">
+<div class="bg-secondary h-full rounded-full" style="width: 75.8%; background: linear-gradient(90deg, rgb(56, 189, 248), rgb(14, 165, 233));"></div>
+</div>
+</div>
+<div class="col-span-2 text-right font-data-mono text-label-md text-primary font-bold">75.8% (25/33)</div>
+</div>
+<div class="grid grid-cols-12 items-center gap-space-sm">
+<div class="col-span-2 font-headline-sm text-[13px] text-on-surface-variant font-semibold">PLO5 - Prototype</div>
+<div class="col-span-8 flex items-center">
+<div class="w-full bg-surface-container h-4 rounded-full overflow-hidden flex">
+<div class="bg-on-tertiary-container h-full rounded-full" style="width: 48.5%; background: linear-gradient(90deg, rgb(244, 63, 94), rgb(251, 113, 133));"></div>
+</div>
+</div>
+<div class="col-span-2 text-right font-data-mono text-label-md text-on-tertiary-container font-bold">48.5% (16/33)</div>
+</div>
+<div class="grid grid-cols-12 items-center gap-space-sm">
+<div class="col-span-2 font-headline-sm text-[13px] text-on-surface-variant font-semibold">PLO6 - จริยธรรมข้อมูล</div>
+<div class="col-span-8 flex items-center">
+<div class="w-full bg-surface-container h-4 rounded-full overflow-hidden flex">
+<div class="bg-on-tertiary-container h-full rounded-full" style="width: 51.5%; background: linear-gradient(90deg, rgb(244, 63, 94), rgb(251, 113, 133));"></div>
+</div>
+</div>
+<div class="col-span-2 text-right font-data-mono text-label-md text-on-tertiary-container font-bold">51.5% (17/33)</div>
+</div>
+<div class="grid grid-cols-12 items-center gap-space-sm">
+<div class="col-span-2 font-headline-sm text-[13px] text-on-surface-variant font-semibold">PLO7 - การสื่อสารนำเสนอ</div>
+<div class="col-span-8 flex items-center">
+<div class="w-full bg-surface-container h-4 rounded-full overflow-hidden flex">
+<div class="bg-on-tertiary-container h-full rounded-full" style="width: 54.5%; background: linear-gradient(90deg, rgb(244, 63, 94), rgb(251, 113, 133));"></div>
+</div>
+</div>
+<div class="col-span-2 text-right font-data-mono text-label-md text-on-tertiary-container font-bold">54.5% (18/33)</div>
+</div>
+<div class="grid grid-cols-12 items-center gap-space-sm">
+<div class="col-span-2 font-headline-sm text-[13px] text-primary font-semibold">PLO8 - การทำงานทีม</div>
+<div class="col-span-8 flex items-center">
+<div class="w-full bg-surface-container h-4 rounded-full overflow-hidden flex">
+<div class="bg-secondary h-full rounded-full" style="width: 81.8%; background: linear-gradient(90deg, rgb(56, 189, 248), rgb(14, 165, 233));"></div>
+</div>
+</div>
+<div class="col-span-2 text-right font-data-mono text-label-md text-primary font-bold">81.8% (27/33)</div>
+</div>
+<div class="grid grid-cols-12 items-center gap-space-sm">
+<div class="col-span-2 font-headline-sm text-[13px] text-primary font-semibold">PLO9 - เรียนรู้ตลอดชีวิต</div>
+<div class="col-span-8 flex items-center">
+<div class="w-full bg-surface-container h-4 rounded-full overflow-hidden flex">
+<div class="bg-secondary h-full rounded-full" style="width: 78.8%; background: linear-gradient(90deg, rgb(56, 189, 248), rgb(14, 165, 233));"></div>
+</div>
+</div>
+<div class="col-span-2 text-right font-data-mono text-label-md text-primary font-bold">78.8% (26/33)</div>
+</div>
+</div>
+<div class="mt-space-sm pt-space-xs flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>หมายเหตุ: คำนวณจากเกณฑ์คะแนนเฉลี่ยผลรวมวิชาที่ Map กับ PLO แต่ละตัว</span>
+<span class="font-data-mono font-semibold text-primary">Mean Pass: 68.0%</span>
+</div>
+</div>
+</div>
+<!-- Detailed PLO Program Summary Table -->
+<div class="w-full rounded-2xl bg-surface-container-lowest p-gutter-desktop shadow-sm mb-space-xl overflow-hidden" id="ploTable">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-sm mb-space-md">
+<div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">table_chart</span>
+<h2 class="font-headline-md text-headline-md text-primary">ตารางสรุปผลลัพธ์การเรียนรู้ระดับหลักสูตร (Program Learning Outcomes - PLO Matrix)</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+          วิเคราะห์สมรรถนะการเรียนรู้รายด้าน (Cognitive / Psychomotor / Affective) ความก้าวหน้า และอัตราการบรรลุเป้าหมาย
+        </p>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-on-surface-variant text-[18px]">search</span>
+<input class="bg-surface-container-low pl-9 pr-space-md py-1.5 rounded-lg font-body-sm text-body-sm text-on-surface focus:outline-none focus:bg-surface-container transition-all" id="ploSearchInput" placeholder="ค้นหา PLO หรือคำสำคัญ..." type="text">
+</div>
+</div>
+</div>
+<!-- Responsive Table Container -->
+<div class="w-full overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
+<th class="py-space-sm px-space-md rounded-l-lg">รหัส PLO</th>
+<th class="py-space-sm px-space-md min-w-[280px]">รายละเอียดผลลัพธ์การเรียนรู้ (PLO Description)</th>
+<th class="py-space-sm px-space-md min-w-[140px]">Domain &amp; Level</th>
+<th class="py-space-sm px-space-md text-center">เกณฑ์เป้าหมาย</th>
+<th class="py-space-sm px-space-md text-center">Progress เฉลี่ย</th>
+<th class="py-space-sm px-space-md text-center min-w-[130px]">Achievement สะสม</th>
+<th class="py-space-sm px-space-md text-center">จำนวนนิสิตบรรลุ</th>
+<th class="py-space-sm px-space-md text-center">% ถึงเป้าหมาย</th>
+<th class="py-space-sm px-space-md text-center rounded-r-lg">สถานะ</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container-low font-body-sm text-body-sm text-on-surface">
+<!-- Row PLO1 -->
+<tr class="plo-row hover:bg-surface-container-low/50 transition-colors" data-status="pass">
+<td class="py-space-md px-space-md font-headline-sm text-primary font-bold whitespace-nowrap">
+              PLO1
+            </td>
+<td class="py-space-md px-space-md">
+<div class="font-headline-sm text-[14px] text-primary font-semibold">ประยุกต์หลักการทางคณิตศาสตร์ สถิติ และความน่าจะเป็น</div>
+<p class="font-body-sm text-on-surface-variant mt-0.5">นำหลักการทางวิทยาการข้อมูลและพีชคณิตเชิงเส้นมาประยุกต์ใช้ในการแก้ปัญหาโจทย์เชิงคำนวณและสถิติขั้นสูง</p>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-[11px] font-medium">
+                Cognitive - Applying (C3)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-on-surface-variant">70.00%</td>
+<td class="py-space-md px-space-md text-center font-data-mono text-on-surface-variant">7.58%</td>
+<td class="py-space-md px-space-md text-center">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-data-mono font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>75.00%</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-medium">24 / 33</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-secondary">72.7%</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold" style="background-color: rgb(224, 242, 254); color: rgb(2, 132, 199);">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>ผ่านเกณฑ์</span>
+</span>
+</td>
+</tr>
+<!-- Row PLO2 -->
+<tr class="plo-row hover:bg-surface-container-low/50 transition-colors" data-status="pass">
+<td class="py-space-md px-space-md font-headline-sm text-primary font-bold whitespace-nowrap">
+              PLO2
+            </td>
+<td class="py-space-md px-space-md">
+<div class="font-headline-sm text-[14px] text-primary font-semibold">กำหนดและวิเคราะห์ปัญหาทางธุรกิจด้วยกระบวนการ Data Science</div>
+<p class="font-body-sm text-on-surface-variant mt-0.5">ระบุความต้องการทางธุรกิจ แปลงเป็นโจทย์การวิเคราะห์และวางกรอบแผนงานเพื่อสร้างคุณค่าทางเศรษฐกิจ</p>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-[11px] font-medium">
+                Cognitive - Analyzing (C4)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-on-surface-variant">70.00%</td>
+<td class="py-space-md px-space-md text-center font-data-mono text-on-surface-variant">7.58%</td>
+<td class="py-space-md px-space-md text-center">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-data-mono font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>75.00%</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-medium">23 / 33</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-secondary">69.7%</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold" style="background-color: rgb(224, 242, 254); color: rgb(2, 132, 199);">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>ผ่านเกณฑ์</span>
+</span>
+</td>
+</tr>
+<!-- Row PLO3 -->
+<tr class="plo-row hover:bg-surface-container-low/50 transition-colors" data-status="pass">
+<td class="py-space-md px-space-md font-headline-sm text-primary font-bold whitespace-nowrap">
+              PLO3
+            </td>
+<td class="py-space-md px-space-md">
+<div class="font-headline-sm text-[14px] text-primary font-semibold">เตรียมข้อมูลดิบ บริหารจัดการ Data Pipeline และทำความสะอาดข้อมูล</div>
+<p class="font-body-sm text-on-surface-variant mt-0.5">สกัด คัดกรอง แปลงรูปข้อมูล (ETL) และบริหารคลังข้อมูลขนาดใหญ่ตามมาตรฐาน Data Engineering</p>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-[11px] font-medium">
+                Psychomotor - Precision (P3)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-on-surface-variant">70.00%</td>
+<td class="py-space-md px-space-md text-center font-data-mono text-on-surface-variant">7.58%</td>
+<td class="py-space-md px-space-md text-center">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-data-mono font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>75.00%</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-medium">26 / 33</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-secondary">78.8%</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold" style="background-color: rgb(224, 242, 254); color: rgb(2, 132, 199);">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>ผ่านเกณฑ์</span>
+</span>
+</td>
+</tr>
+<!-- Row PLO4 -->
+<tr class="plo-row hover:bg-surface-container-low/50 transition-colors" data-status="pass">
+<td class="py-space-md px-space-md font-headline-sm text-primary font-bold whitespace-nowrap">
+              PLO4
+            </td>
+<td class="py-space-md px-space-md">
+<div class="font-headline-sm text-[14px] text-primary font-semibold">สร้างและประเมินประสิทธิภาพโมเดลการเรียนรู้ของเครื่อง (Machine Learning)</div>
+<p class="font-body-sm text-on-surface-variant mt-0.5">พัฒนาอัลกอริทึมจำแนกประเภท ทำนายแนวโน้ม และตรวจสอบสมรรถนะของโมเดลตามเกณฑ์ชี้วัดสถิติ</p>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-[11px] font-medium">
+                Cognitive - Evaluating (C5)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-on-surface-variant">70.00%</td>
+<td class="py-space-md px-space-md text-center font-data-mono text-on-surface-variant">7.58%</td>
+<td class="py-space-md px-space-md text-center">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-data-mono font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>75.00%</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-medium">25 / 33</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-secondary">75.8%</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold" style="background-color: rgb(224, 242, 254); color: rgb(2, 132, 199);">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>ผ่านเกณฑ์</span>
+</span>
+</td>
+</tr>
+<!-- Row PLO5 (Attention) -->
+<tr class="plo-row hover:bg-surface-container-low/50 transition-colors bg-tertiary-fixed/10" data-status="watch">
+<td class="py-space-md px-space-md font-headline-sm text-primary font-bold whitespace-nowrap">
+              PLO5
+            </td>
+<td class="py-space-md px-space-md">
+<div class="font-headline-sm text-[14px] text-primary font-semibold flex items-center gap-2">
+<span>สร้างโซลูชันต้นแบบ (Prototype) ด้านวิทยาการข้อมูลและแอปพลิเคชัน</span>
+<span class="px-1.5 py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-[11px] font-bold" style="background-color: rgb(252, 231, 243); color: rgb(219, 39, 119);">ต้องปรับปรุง</span>
+</div>
+<p class="font-body-sm text-on-surface-variant mt-0.5">บูรณาการซอฟต์แวร์ API และส่วนต่อประสานผู้ใช้เพื่อนำโมเดลไปใช้งานได้จริงบนระบบคลาวด์</p>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-[11px] font-medium">
+                Psychomotor - Articulation (P4)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-on-surface-variant">70.00%</td>
+<td class="py-space-md px-space-md text-center font-data-mono text-on-surface-variant">7.58%</td>
+<td class="py-space-md px-space-md text-center">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed-variant font-data-mono font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+<span>50.00%</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-medium">16 / 33</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-on-tertiary-container">48.5%</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+<span>เฝ้าระวังและพัฒนาเพิ่ม</span>
+</span>
+</td>
+</tr>
+<!-- Row PLO6 (Attention) -->
+<tr class="plo-row hover:bg-surface-container-low/50 transition-colors bg-tertiary-fixed/10" data-status="watch">
+<td class="py-space-md px-space-md font-headline-sm text-primary font-bold whitespace-nowrap">
+              PLO6
+            </td>
+<td class="py-space-md px-space-md">
+<div class="font-headline-sm text-[14px] text-primary font-semibold flex items-center gap-2">
+<span>ตระหนักในจริยธรรมข้อมูล กฎหมายคุ้มครองข้อมูลส่วนบุคคล (PDPA) และความมั่นคงปลอดภัย</span>
+<span class="px-1.5 py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-[11px] font-bold" style="background-color: rgb(252, 231, 243); color: rgb(219, 39, 119);">ต้องปรับปรุง</span>
+</div>
+<p class="font-body-sm text-on-surface-variant mt-0.5">ปฏิบัติตามหลักธรรมาภิบาลข้อมูล การรักษาความลับ และความโปร่งใสในการตัดสินใจของระบบปัญญาประดิษฐ์</p>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-highest text-primary font-label-sm text-[11px] font-medium">
+                Affective - Valuing (A3)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-on-surface-variant">70.00%</td>
+<td class="py-space-md px-space-md text-center font-data-mono text-on-surface-variant">7.58%</td>
+<td class="py-space-md px-space-md text-center">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed-variant font-data-mono font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+<span>50.00%</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-medium">17 / 33</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-on-tertiary-container">51.5%</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+<span>เฝ้าระวังและพัฒนาเพิ่ม</span>
+</span>
+</td>
+</tr>
+<!-- Row PLO7 (Attention) -->
+<tr class="plo-row hover:bg-surface-container-low/50 transition-colors bg-tertiary-fixed/10" data-status="watch">
+<td class="py-space-md px-space-md font-headline-sm text-primary font-bold whitespace-nowrap">
+              PLO7
+            </td>
+<td class="py-space-md px-space-md">
+<div class="font-headline-sm text-[14px] text-primary font-semibold flex items-center gap-2">
+<span>สื่อสารและถ่ายทอดข้อมูลเชิงลึกผ่าน Data Storytelling อย่างมีประสิทธิผล</span>
+<span class="px-1.5 py-0.5 rounded bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-[11px] font-bold" style="background-color: rgb(252, 231, 243); color: rgb(219, 39, 119);">ต้องปรับปรุง</span>
+</div>
+<p class="font-body-sm text-on-surface-variant mt-0.5">ออกแบบแดชบอร์ด แผนภาพเชิงปฏิสัมพันธ์ และนำเสนอผลการวิเคราะห์ให้ผู้มีส่วนได้ส่วนเสียเข้าใจง่าย</p>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-[11px] font-medium">
+                Psychomotor - Articulation (P4)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-on-surface-variant">70.00%</td>
+<td class="py-space-md px-space-md text-center font-data-mono text-on-surface-variant">7.58%</td>
+<td class="py-space-md px-space-md text-center">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed-variant font-data-mono font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+<span>50.00%</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-medium">18 / 33</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-on-tertiary-container">54.5%</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-tertiary-fixed text-on-tertiary-fixed-variant font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+<span>เฝ้าระวังและพัฒนาเพิ่ม</span>
+</span>
+</td>
+</tr>
+<!-- Row PLO8 -->
+<tr class="plo-row hover:bg-surface-container-low/50 transition-colors" data-status="pass">
+<td class="py-space-md px-space-md font-headline-sm text-primary font-bold whitespace-nowrap">
+              PLO8
+            </td>
+<td class="py-space-md px-space-md">
+<div class="font-headline-sm text-[14px] text-primary font-semibold">ทำงานร่วมกับผู้อื่นในสภาพแวดล้อมพหุวัฒนธรรมและมีภาวะผู้นำ</div>
+<p class="font-body-sm text-on-surface-variant mt-0.5">ทำงานร่วมกันเป็นทีมข้ามสายงาน บริหารเวลา โครงการ และร่วมแก้ไขข้อขัดแย้งอย่างสร้างสรรค์</p>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-highest text-primary font-label-sm text-[11px] font-medium">
+                Affective - Organization (A4)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-on-surface-variant">70.00%</td>
+<td class="py-space-md px-space-md text-center font-data-mono text-on-surface-variant">7.58%</td>
+<td class="py-space-md px-space-md text-center">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-data-mono font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>75.00%</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-medium">27 / 33</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-secondary">81.8%</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold" style="background-color: rgb(224, 242, 254); color: rgb(2, 132, 199);">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>ผ่านเกณฑ์</span>
+</span>
+</td>
+</tr>
+<!-- Row PLO9 -->
+<tr class="plo-row hover:bg-surface-container-low/50 transition-colors" data-status="pass">
+<td class="py-space-md px-space-md font-headline-sm text-primary font-bold whitespace-nowrap">
+              PLO9
+            </td>
+<td class="py-space-md px-space-md">
+<div class="font-headline-sm text-[14px] text-primary font-semibold">ใฝ่รู้และพัฒนาทักษะวิชาชีพทางวิทยาการข้อมูลอย่างต่อเนื่อง (Lifelong Learning)</div>
+<p class="font-body-sm text-on-surface-variant mt-0.5">แสวงหาองค์ความรู้และเทคโนโลยีใหม่ด้าน AI/Data และปรับตัวให้ทันต่อการเปลี่ยนแปลงของอุตสาหกรรม</p>
+</td>
+<td class="py-space-md px-space-md">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-highest text-primary font-label-sm text-[11px] font-medium">
+                Affective - Characterization (A5)
+              </span>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-on-surface-variant">70.00%</td>
+<td class="py-space-md px-space-md text-center font-data-mono text-on-surface-variant">7.58%</td>
+<td class="py-space-md px-space-md text-center">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-data-mono font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span>75.00%</span>
+</div>
+</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-medium">26 / 33</td>
+<td class="py-space-md px-space-md text-center font-data-mono font-semibold text-secondary">78.8%</td>
+<td class="py-space-md px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold" style="background-color: rgb(224, 242, 254); color: rgb(2, 132, 199);">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+<span>ผ่านเกณฑ์</span>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- Educational Context / Footer Note -->
+<div class="mt-space-md pt-space-md bg-surface-container-low rounded-xl p-space-md flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md" style="background: linear-gradient(135deg, rgb(253, 242, 248) 0%, rgb(240, 249, 255) 100%); border: 1.5px solid rgb(251, 207, 232);">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">psychology</span>
+<div>
+<span class="font-headline-sm text-headline-sm text-primary">คำแนะนำสำหรับคณะกรรมการพัฒนาหลักสูตร (OBE Curriculum Action Plan)</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            ผลลัพธ์ PLO5 (Prototype) และ PLO7 (Data Storytelling) แนะนำให้ปรับกระบวนการวัดประเมินผลในรายวิชา Capstone Project และวิชา Data Visualization โดยเพิ่มน้ำหนัก Rubrics ภาคปฏิบัติ
+          </p>
+</div>
+</div>
+<button class="shrink-0 inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md hover:bg-surface transition-all shadow-sm" style="background: linear-gradient(135deg, rgb(236, 72, 153), rgb(2, 132, 199)); color: rgb(255, 255, 255);">
+<span class="material-symbols-outlined text-[18px]">add_task</span>
+<span>บันทึกแผนปรับปรุง CQI</span>
+</button>
+</div>
+</div>
+<!-- Notification Toast Container -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none bg-primary text-on-primary px-space-md py-space-sm rounded-xl shadow-xl flex items-center gap-space-sm" id="toastNotification">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px]">check_circle</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold" id="toastTitle">ดำเนินการสำเร็จ</span>
+<span class="font-body-sm text-body-sm opacity-90" id="toastMessage">ระบบกำลังประมวลผลข้อมูล...</span>
+</div>
+</div>
+</div>
+<script>
+  // Dynamic Table Filter & Cohort Interactivity
+  const statusFilter = document.getElementById('statusFilter');
+  const ploSearchInput = document.getElementById('ploSearchInput');
+  const ploRows = document.querySelectorAll('.plo-row');
+  const cohortButtons = document.querySelectorAll('.cohort-pill');
+  const toast = document.getElementById('toastNotification');
+  const toastTitle = document.getElementById('toastTitle');
+  const toastMessage = document.getElementById('toastMessage');
+
+  function showToast(title, msg) {
+    if (!toast) return;
+    toastTitle.textContent = title;
+    toastMessage.textContent = msg;
+    toast.classList.remove('translate-y-24', 'opacity-0', 'pointer-events-none');
+    toast.classList.add('translate-y-0', 'opacity-100');
+    setTimeout(() => {
+      toast.classList.add('translate-y-24', 'opacity-0', 'pointer-events-none');
+      toast.classList.remove('translate-y-0', 'opacity-100');
+    }, 3200);
+  }
+
+  function filterTable() {
+    const selectedStatus = statusFilter ? statusFilter.value : 'all';
+    const query = ploSearchInput ? ploSearchInput.value.toLowerCase().trim() : '';
+
+    ploRows.forEach(row => {
+      const rowStatus = row.getAttribute('data-status');
+      const textContent = row.textContent.toLowerCase();
+
+      const matchStatus = (selectedStatus === 'all') || (rowStatus === selectedStatus);
+      const matchQuery = !query || textContent.includes(query);
+
+      if (matchStatus && matchQuery) {
+        row.style.display = '';
+      } else {
+        row.style.display = 'none';
+      }
+    });
+  }
+
+  if (statusFilter) {
+    statusFilter.addEventListener('change', filterTable);
+  }
+
+  if (ploSearchInput) {
+    ploSearchInput.addEventListener('input', filterTable);
+  }
+
+  cohortButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      cohortButtons.forEach(b => {
+        b.classList.remove('text-on-primary', 'bg-primary');
+        b.classList.add('text-on-surface-variant');
+      });
+      btn.classList.add('text-on-primary', 'bg-primary');
+      btn.classList.remove('text-on-surface-variant');
+      const year = btn.getAttribute('data-filter-year');
+      showToast('กรองข้อมูลชั้นปี', `แสดงข้อมูลภาพรวมผลการเรียนรู้ นิสิตชั้นปี: ${year === 'all' ? 'ทั้งหมด (ปี 1 - 4)' : 'ปี ' + year}`);
+    });
+  });
+
+  const btnExportTqf = document.getElementById('btnExportTqf');
+  if (btnExportTqf) {
+    btnExportTqf.addEventListener('click', () => {
+      showToast('ส่งออกเอกสาร มคอ.7 สำเร็จ', 'สร้างไฟล์รายงานมาตรฐานผลลัพธ์การเรียนรู้ OBE เรียบร้อยแล้ว (TQF-7_DSDA_2569.xlsx)');
+    });
+  }
+
+  const btnDownloadPdf = document.getElementById('btnDownloadPdf');
+  if (btnDownloadPdf) {
+    btnDownloadPdf.addEventListener('click', () => {
+      showToast('สร้างเอกสาร PDF', 'กำลังเตรียมพิมพ์รายงานการประเมิน PLO สำหรับเสนอที่ประชุมหลักสูตร...');
+    });
+  }
+</script></main></div>
+
+</body></html>
