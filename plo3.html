@@ -1,0 +1,1110 @@
+<!DOCTYPE html>
+
+<html lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_dashboard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"secondary-fixed-dim":"#68dba9","surface-container-high":"#dce9ff","on-tertiary-fixed-variant":"#653e00","primary-container":"#17365d","tertiary":"#311c00","error-container":"#ffdad6","primary-fixed":"#d5e3ff","surface-container-low":"#eff4ff","on-tertiary-container":"#dd8d00","tertiary-fixed":"#ffddb8","secondary-fixed":"#85f8c4","on-primary-fixed-variant":"#2b486f","surface":"#f8f9ff","on-background":"#0b1c30","primary-fixed-dim":"#acc8f7","on-primary":"#ffffff","on-surface-variant":"#43474e","outline":"#74777f","tertiary-fixed-dim":"#ffb95f","inverse-on-surface":"#eaf1ff","secondary":"#006c4a","on-secondary-fixed":"#002114","surface-container":"#e5eeff","tertiary-container":"#4e2f00","on-primary-container":"#84a0cd","surface-dim":"#cbdbf5","secondary-container":"#82f5c1","on-secondary-container":"#00714e","on-tertiary-fixed":"#2a1700","outline-variant":"#c4c6cf","primary":"#002043","surface-bright":"#f8f9ff","surface-container-highest":"#d3e4fe","on-error-container":"#93000a","on-surface":"#0b1c30","on-tertiary":"#ffffff","surface-tint":"#435f89","on-primary-fixed":"#001c3b","on-secondary-fixed-variant":"#005137","background":"#f8f9ff","surface-variant":"#d3e4fe","error":"#ba1a1a","on-secondary":"#ffffff","inverse-surface":"#213145","on-error":"#ffffff","surface-container-lowest":"#ffffff","inverse-primary":"#acc8f7"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"space-md":"1rem","space-sm":"0.5rem","gutter":"1rem","gutter-desktop":"1.5rem","space-xl":"2rem","margin-tablet":"1.5rem","space-lg":"1.5rem","margin":"1rem","margin-desktop":"2rem","gutter-tablet":"1rem","space-xs":"0.25rem"},"fontFamily":{"display-lg":["Plus Jakarta Sans"],"body-md":["Inter"],"body-lg":["Inter"],"label-md":["Inter"],"headline-md":["Plus Jakarta Sans"],"data-mono":["Inter"],"body-sm":["Inter"],"headline-sm":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"headline-lg-mobile":["Plus Jakarta Sans"],"label-sm":["Inter"]},"fontSize":{"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"body-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"500"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"data-mono":["13px",{"lineHeight":"18px","letterSpacing":"-0.01em","fontWeight":"500"}],"body-sm":["12px",{"lineHeight":"18px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-sm":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"600"}],"headline-lg":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"600"}],"display-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-lg-mobile":["22px",{"lineHeight":"30px","letterSpacing":"-0.01em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"16px","letterSpacing":"0.03em","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><aside class="fixed left-0 top-0 h-full w-72 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-50 flex flex-col justify-between"><div class="flex flex-col"><div class="h-16 px-space-md flex items-center gap-space-sm bg-surface-container-low"><img alt="DSDA OBE System Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAyLOq9L_kc2juXNPSlrQvImVCpyrtlrQdON5n1PqACX8f4ySQ5DMK-f9VGPQeeNP_uHwzdytApQ2UD0RiSotfCFb8RstNTN1VD-CqM0fSncwWM8ZTZtNWiZhv1Lq7fAl9foxiVRXgxndlM3Bsg9i24DaygZomMyrsufPAjlzFHY4LyChWXs50mIA0N1OtfEPaluWXl237iJBd3L7FXeyDBn0VtbcJmI2OzXQ4A4vs"/><div class="flex flex-col min-w-0"><span class="font-headline-sm text-headline-sm text-primary truncate leading-tight">DSDA OBE</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">ระบบประเมินผลลัพธ์การเรียนรู้</span></div></div><div class="px-space-md py-space-sm bg-surface-container-low"><div class="flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant"><span class="material-symbols-outlined text-[16px]">school</span><span>หลักสูตร วท.บ. วิทยาการข้อมูล (DSDA)</span></div></div><nav class="flex flex-col gap-space-xs px-space-sm py-space-md" data-active-classes="bg-primary-container text-on-primary font-bold"><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="course-grade" href="#"><span class="material-symbols-outlined text-[20px]">edit_note</span><span class="font-label-md text-label-md">กรอกคะแนนรายวิชา</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="program-dashboard" href="#"><span class="material-symbols-outlined text-[20px]">analytics</span><span class="font-label-md text-label-md">สรุปผล PLO ภาพรวมหลักสูตร</span></a><a class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-lg text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-all" data-path="student-dashboard" href="#"><span class="material-symbols-outlined text-[20px]">person_search</span><span class="font-label-md text-label-md">สรุปผล PLO รายบุคคล</span></a><a aria-current="page" class="flex items-center gap-space-sm px-space-sm py-space-sm rounded-lg transition-all bg-primary-container text-on-primary font-bold" data-path="curriculum-matrix" href="#"><span class="material-symbols-outlined text-[20px]">grid_view</span><span class="font-label-md text-label-md">โครงสร้างหลักสูตรและน้ำหนัก PLO</span></a></nav></div><div class="p-space-md bg-surface-container-low m-space-sm rounded-xl"><div class="flex items-center justify-between mb-space-xs"><span class="font-label-sm text-label-sm text-on-surface-variant">สิทธิ์การใช้งาน (Role)</span><span class="font-label-sm text-label-sm px-space-xs py-0.5 rounded bg-secondary-container text-on-secondary-container">ผู้สอน / Chair</span></div><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><div class="flex flex-col min-w-0 flex-1"><span class="font-label-md text-label-md text-on-surface font-semibold truncate">อ.ดร. นภนต์ วิทยากร</span><span class="font-label-sm text-label-sm text-on-surface-variant truncate">DSDA Faculty Admin</span></div><button class="text-on-surface-variant hover:text-primary" type="button"><span class="material-symbols-outlined text-[18px]">swap_horiz</span></button></div></div></aside><div class="pl-72"><header class="fixed top-0 left-72 right-0 h-16 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] z-40 flex items-center justify-between px-gutter-desktop"><div class="flex items-center gap-space-md"><img alt="DSDA OBE System Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrAyLOq9L_kc2juXNPSlrQvImVCpyrtlrQdON5n1PqACX8f4ySQ5DMK-f9VGPQeeNP_uHwzdytApQ2UD0RiSotfCFb8RstNTN1VD-CqM0fSncwWM8ZTZtNWiZhv1Lq7fAl9foxiVRXgxndlM3Bsg9i24DaygZomMyrsufPAjlzFHY4LyChWXs50mIA0N1OtfEPaluWXl237iJBd3L7FXeyDBn0VtbcJmI2OzXQ4A4vs"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-tight">ระบบบันทึกและประเมินผลลัพธ์การเรียนรู้ OBE</span><span class="font-label-sm text-label-sm text-on-surface-variant">Outcome-Based Grading &amp; Program Learning Outcome Analytics</span></div></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-xs rounded-lg"><span class="material-symbols-outlined text-[18px] text-on-surface-variant">calendar_today</span><span class="font-label-sm text-label-sm text-on-surface-variant">ปีการศึกษา:</span><select class="bg-transparent font-label-md text-label-md text-on-surface font-medium focus:outline-none cursor-pointer"><option selected="" value="2569">2569</option><option value="2568">2568</option><option value="2567">2567</option></select></div><div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-xs rounded-lg"><span class="material-symbols-outlined text-[18px] text-on-surface-variant">event_repeat</span><span class="font-label-sm text-label-sm text-on-surface-variant">ภาคการศึกษา:</span><select class="bg-transparent font-label-md text-label-md text-on-surface font-medium focus:outline-none cursor-pointer"><option selected="" value="1">ภาคต้น (First Semester)</option><option value="2">ภาคปลาย (Second Semester)</option><option value="3">ภาคฤดูร้อน (Summer)</option></select></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="relative pt-16 w-full bg-surface px-gutter-desktop py-space-lg"><div class="flex flex-col w-full gap-space-lg">
+<!-- Top Banner / Editorial Header Section -->
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest shadow-sm p-space-lg">
+<div class="absolute -right-16 -top-16 w-80 h-80 rounded-full bg-gradient-to-br from-primary-fixed-dim/20 to-transparent pointer-events-none blur-2xl"></div>
+<div class="flex flex-col xl:flex-row xl:items-center justify-between gap-space-md relative z-10">
+<div class="flex flex-col gap-space-xs max-w-4xl">
+<div class="flex items-center gap-space-xs">
+<span class="px-space-sm py-0.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm uppercase tracking-wider font-semibold">TQF: OBE 2569</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+            สถานะ: รับรองโครงสร้างและน้ำหนักความรับผิดชอบครบ 100%
+          </span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+          โครงสร้างหลักสูตรและกำหนดน้ำหนักความรับผิดชอบ PLO (Curriculum Mapping &amp; PLO Weight)
+        </h1>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          หลักสูตรวิทยาศาสตรบัณฑิต สาขาวิชาวิทยาการข้อมูลและการวิเคราะห์ข้อมูล (DSDA) ปรับปรุง พ.ศ. 2569 • คณะวิทยาศาสตร์
+        </p>
+</div>
+<!-- Action Cluster -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<button class="flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-container hover:bg-surface-container-high text-primary transition-all shadow-sm active:scale-95" id="validateBtn" onclick="runValidation()">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="font-label-md text-label-md font-semibold">ตรวจสอบความสอดคล้องหลักสูตร (Validate All)</span>
+</button>
+<button class="flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-primary hover:bg-primary-container text-on-primary transition-all shadow-sm active:scale-95" onclick="exportModal()">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span class="font-label-md text-label-md font-semibold">ส่งออก Matrix (Excel/PDF)</span>
+</button>
+</div>
+</div>
+<!-- Visual Legend Bar: IRPM & Weight Taxonomy -->
+<div class="mt-space-lg pt-space-md bg-surface-container-low/70 rounded-xl p-space-md flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<div class="flex flex-wrap items-center gap-space-md">
+<span class="font-label-sm text-label-sm text-on-surface font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">info</span>
+          คำอธิบายระดับผลลัพธ์การเรียนรู้ (IRPM Legend):
+        </span>
+<div class="flex flex-wrap items-center gap-space-sm">
+<!-- I Badge -->
+<div class="flex items-center gap-1.5 px-space-sm py-1 rounded bg-surface-container-highest text-on-surface-variant shadow-xs">
+<span class="w-5 h-5 rounded-full bg-surface-container-high text-on-surface font-bold text-[11px] flex items-center justify-center">I</span>
+<span class="font-label-sm text-label-sm">Introduced (ความรู้/ประเมินเบื้องต้น)</span>
+</div>
+<!-- R Badge -->
+<div class="flex items-center gap-1.5 px-space-sm py-1 rounded bg-tertiary-fixed/50 text-tertiary shadow-xs">
+<span class="w-5 h-5 rounded-full bg-tertiary-fixed-dim text-on-tertiary-fixed font-bold text-[11px] flex items-center justify-center">R</span>
+<span class="font-label-sm text-label-sm">Reinforced (เรียนย้ำ/ต่อยอดลึกซึ้ง)</span>
+</div>
+<!-- P Badge -->
+<div class="flex items-center gap-1.5 px-space-sm py-1 rounded bg-secondary-fixed/50 text-on-secondary-fixed-variant shadow-xs">
+<span class="w-5 h-5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-bold text-[11px] flex items-center justify-center">P</span>
+<span class="font-label-sm text-label-sm">Practiced (ประยุกต์ใช้/ปฏิบัติจริง)</span>
+</div>
+<!-- M Badge -->
+<div class="flex items-center gap-1.5 px-space-sm py-1 rounded bg-primary-fixed text-on-primary-fixed-variant shadow-xs">
+<span class="w-5 h-5 rounded-full bg-primary text-on-primary font-bold text-[11px] flex items-center justify-center">M</span>
+<span class="font-label-sm text-label-sm">Mastery (เชี่ยวชาญ/ชำนาญขั้นสูง)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant self-end md:self-auto">
+<span class="material-symbols-outlined text-[16px] text-secondary">tune</span>
+<span>เกณฑ์: 1 PLO รวม 100% (คำนวณถ่วงน้ำหนักตามโมดูล)</span>
+</div>
+</div>
+</div>
+<!-- Executive Metric Summaries & Mini Analytics -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">จำนวนรายวิชาบังคับตามแผน</span>
+<span class="font-headline-lg text-headline-lg text-primary font-bold">28 <span class="font-body-md text-body-md font-normal text-on-surface-variant">วิชา</span></span>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-0.5 mt-0.5">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> 6 โมดูลหลักสูตร
+        </span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">school</span>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">การกระจายตัว Mastery (M)</span>
+<span class="font-headline-lg text-headline-lg text-primary font-bold">34 <span class="font-body-md text-body-md font-normal text-on-surface-variant">จุดประเมิน</span></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">เน้นโครงงาน &amp; WIL ชั้นปีที่ 3-4</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-primary-fixed/50 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">workspace_premium</span>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">ความสมบูรณ์การถ่วงน้ำหนัก</span>
+<span class="font-headline-lg text-headline-lg text-secondary font-bold">100.0%</span>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-0.5 mt-0.5">
+<span class="material-symbols-outlined text-[14px]">done_all</span> ครบทั้ง 9 PLO
+        </span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[24px]">pie_chart</span>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">รายวิชาเอกเลือกที่เชื่อมโยง</span>
+<span class="font-headline-lg text-headline-lg text-primary font-bold">14 <span class="font-body-md text-body-md font-normal text-on-surface-variant">วิชา</span></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">เชื่อมสู่ PLO3, PLO4, PLO8</span>
+</div>
+<div class="w-12 h-12 rounded-xl bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">hub</span>
+</div>
+</div>
+</div>
+<!-- Interactive Control Bar: Tabs & Search/Filters -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-space-md bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<!-- View Switcher Tabs -->
+<div class="inline-flex p-1 bg-surface-container rounded-xl self-start">
+<button class="px-space-md py-space-xs rounded-lg font-label-md text-label-md font-semibold transition-all bg-primary-container text-on-primary shadow-sm flex items-center gap-1.5" id="tab-core" onclick="switchView('core')">
+<span class="material-symbols-outlined text-[18px]">view_column</span>
+<span>รายวิชาบังคับตามแผนการเรียน (Core)</span>
+</button>
+<button class="px-space-md py-space-xs rounded-lg font-label-md text-label-md font-semibold transition-all text-on-surface-variant hover:text-on-surface flex items-center gap-1.5" id="tab-electives" onclick="switchView('electives')">
+<span class="material-symbols-outlined text-[18px]">dns</span>
+<span>วิชาเอกเลือก (Electives Mapping)</span>
+</button>
+<button class="px-space-md py-space-xs rounded-lg font-label-md text-label-md font-semibold transition-all text-on-surface-variant hover:text-on-surface flex items-center gap-1.5" id="tab-audit" onclick="switchView('audit')">
+<span class="material-symbols-outlined text-[18px]">fact_check</span>
+<span>การตรวจสอบผลรวม 100% (Audit)</span>
+</button>
+</div>
+<!-- Search & Secondary Filters -->
+<div class="flex flex-wrap items-center gap-space-sm">
+<div class="relative min-w-[260px]">
+<span class="material-symbols-outlined absolute left-3 top-2.5 text-[18px] text-on-surface-variant">search</span>
+<input class="w-full pl-9 pr-space-md py-space-xs rounded-lg bg-surface-container-low font-body-sm text-body-sm text-on-surface placeholder:text-on-surface-variant focus:outline-none focus:bg-surface-container-lowest shadow-inner transition-all" id="searchInput" oninput="filterTable()" placeholder="ค้นหารหัสวิชา หรือชื่อวิชา..." type="text"/>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-xs rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">filter_alt</span>
+<select class="bg-transparent font-label-md text-label-md text-on-surface focus:outline-none cursor-pointer" id="semesterFilter" onchange="filterTable()">
+<option value="ALL">ทุกชั้นปี / ทุกภาคเรียน</option>
+<option value="Y1T1">ปี 1 ภาคต้น</option>
+<option value="Y1T2">ปี 1 ภาคปลาย</option>
+<option value="Y2T1">ปี 2 ภาคต้น</option>
+<option value="Y2T2">ปี 2 ภาคปลาย</option>
+<option value="Y3T1">ปี 3 ภาคต้น</option>
+<option value="Y3T2">ปี 3 ภาคปลาย</option>
+<option value="Y4T1">ปี 4 ภาคต้น</option>
+<option value="Y4T2">ปี 4 ภาคปลาย</option>
+</select>
+</div>
+<div class="flex items-center gap-space-xs bg-surface-container-low px-space-sm py-space-xs rounded-lg">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">category</span>
+<select class="bg-transparent font-label-md text-label-md text-on-surface focus:outline-none cursor-pointer" id="moduleFilter" onchange="filterTable()">
+<option value="ALL">ทุกโมดูล (All Modules)</option>
+<option value="M1">M1: Data Science Foundation</option>
+<option value="M2">M2: Data Handling</option>
+<option value="M3">M3: Descriptive Analyst</option>
+<option value="M4">M4: Data Modeler</option>
+<option value="M5">M5: ML Engineer</option>
+<option value="M6">M6: Career Journey</option>
+</select>
+</div>
+</div>
+</div>
+<!-- VIEW 1: Core Curriculum PLO Matrix -->
+<div class="flex flex-col gap-space-md" id="view-core">
+<div class="w-full bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<!-- Matrix Header Info Bar -->
+<div class="p-space-md bg-surface-container-high/40 flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px] text-primary">table_chart</span>
+<span class="font-headline-sm text-headline-sm text-primary">เมทริกซ์ความรับผิดชอบผลลัพธ์การเรียนรู้ (PLO 1 - PLO 9) รายวิชาบังคับ</span>
+</div>
+<div class="flex items-center gap-space-md text-on-surface-variant font-label-sm text-label-sm">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-primary"></span> คลิกที่เซลล์เพื่อปรับน้ำหนัก</span>
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary"></span> ยอดรวมอัตโนมัติตาม TQF</span>
+</div>
+</div>
+<!-- High-Density Responsive Table Container -->
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse" id="matrixTable">
+<thead>
+<tr class="bg-surface-container-low text-on-surface font-label-sm text-label-sm uppercase tracking-wider select-none">
+<th class="py-space-sm px-space-md sticky left-0 z-20 bg-surface-container-low min-w-[100px] shadow-[1px_0_0_0_#dce9ff]">รหัสวิชา</th>
+<th class="py-space-sm px-space-md sticky left-[100px] z-20 bg-surface-container-low min-w-[220px] shadow-[1px_0_0_0_#dce9ff]">ชื่อรายวิชา</th>
+<th class="py-space-sm px-space-md min-w-[170px]">โมดูลหลักสูตร</th>
+<th class="py-space-sm px-space-xs text-center min-w-[60px]">หน่วยกิต</th>
+<th class="py-space-sm px-space-xs text-center min-w-[80px]" title="PLO1: จริยธรรมและกฎหมายข้อมูล (Applying)">
+<div class="flex flex-col items-center">
+<span class="font-bold text-primary">PLO 1</span>
+<span class="text-[10px] text-on-surface-variant normal-case font-normal">จริยธรรม</span>
+</div>
+</th>
+<th class="py-space-sm px-space-xs text-center min-w-[80px]" title="PLO2: พื้นฐานคณิตศาสตร์และสถิติ (Applying)">
+<div class="flex flex-col items-center">
+<span class="font-bold text-primary">PLO 2</span>
+<span class="text-[10px] text-on-surface-variant normal-case font-normal">คณิต-สถิติ</span>
+</div>
+</th>
+<th class="py-space-sm px-space-xs text-center min-w-[80px]" title="PLO3: จัดการและวิเคราะห์ข้อมูลขนาดใหญ่ (Applying)">
+<div class="flex flex-col items-center">
+<span class="font-bold text-primary">PLO 3</span>
+<span class="text-[10px] text-on-surface-variant normal-case font-normal">Big Data</span>
+</div>
+</th>
+<th class="py-space-sm px-space-xs text-center min-w-[80px]" title="PLO4: พัฒนาและประยุกต์ใช้โมเดล ML/AI (Applying)">
+<div class="flex flex-col items-center">
+<span class="font-bold text-primary">PLO 4</span>
+<span class="text-[10px] text-on-surface-variant normal-case font-normal">Machine Learn</span>
+</div>
+</th>
+<th class="py-space-sm px-space-xs text-center min-w-[80px]" title="PLO5: การเล่าเรื่องและการสื่อสารข้อมูล (Applying)">
+<div class="flex flex-col items-center">
+<span class="font-bold text-primary">PLO 5</span>
+<span class="text-[10px] text-on-surface-variant normal-case font-normal">Visual Story</span>
+</div>
+</th>
+<th class="py-space-sm px-space-xs text-center min-w-[80px]" title="PLO6: บูรณาการแก้ไขปัญหาธุรกิจจริง (Applying)">
+<div class="flex flex-col items-center">
+<span class="font-bold text-primary">PLO 6</span>
+<span class="text-[10px] text-on-surface-variant normal-case font-normal">โจทย์ธุรกิจ</span>
+</div>
+</th>
+<th class="py-space-sm px-space-xs text-center min-w-[80px]" title="PLO7: ทักษะความร่วมมือและการสื่อสาร (Applying)">
+<div class="flex flex-col items-center">
+<span class="font-bold text-primary">PLO 7</span>
+<span class="text-[10px] text-on-surface-variant normal-case font-normal">Teamwork</span>
+</div>
+</th>
+<th class="py-space-sm px-space-xs text-center min-w-[80px]" title="PLO8: การเรียนรู้ตลอดชีวิตและการวิจัย (Applying)">
+<div class="flex flex-col items-center">
+<span class="font-bold text-primary">PLO 8</span>
+<span class="text-[10px] text-on-surface-variant normal-case font-normal">Life-long</span>
+</div>
+</th>
+<th class="py-space-sm px-space-xs text-center min-w-[80px]" title="PLO9: ความเป็นมืออาชีพและวินัยทางวิชาชีพ (Applying)">
+<div class="flex flex-col items-center">
+<span class="font-bold text-primary">PLO 9</span>
+<span class="text-[10px] text-on-surface-variant normal-case font-normal">Professional</span>
+</div>
+</th>
+<th class="py-space-sm px-space-sm text-center min-w-[90px]">น้ำหนักรวม</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container font-body-sm text-body-sm text-on-surface" id="matrixTableBody">
+<!-- Row 1: 32210169 จริยธรรมข้อมูล -->
+<tr class="hover:bg-surface-container-low transition-colors duration-150" data-module="M1" data-semester="Y1T1">
+<td class="py-space-sm px-space-md sticky left-0 bg-surface-container-lowest font-data-mono text-data-mono font-semibold text-primary shadow-[1px_0_0_0_#dce9ff]">32210169</td>
+<td class="py-space-sm px-space-md sticky left-[100px] bg-surface-container-lowest font-medium shadow-[1px_0_0_0_#dce9ff]">
+<div class="flex flex-col">
+<span class="text-on-surface font-semibold">จริยธรรมข้อมูลและกฎหมายดิจิทัล</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Data Ethics and Digital Laws (ปี 1 เทอม 1)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-surface-container-high text-primary">M1: Foundation</span>
+</td>
+<td class="py-space-sm px-space-xs text-center font-data-mono">2(2-0-4)</td>
+<!-- PLO1 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform" onclick="editWeight(this, '32210169', 'PLO1')">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 18%</span>
+</td>
+<!-- PLO2 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO3 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO4 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO5 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform" onclick="editWeight(this, '32210169', 'PLO5')">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface font-data-mono text-label-sm">I 4%</span>
+</td>
+<!-- PLO6 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO7 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform" onclick="editWeight(this, '32210169', 'PLO7')">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface font-data-mono text-label-sm">I 3%</span>
+</td>
+<!-- PLO8 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO9 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform" onclick="editWeight(this, '32210169', 'PLO9')">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-data-mono text-label-sm font-semibold">P 10%</span>
+</td>
+<td class="py-space-sm px-space-sm text-center font-data-mono font-bold text-primary">35%</td>
+</tr>
+<!-- Row 2: 32211169 วิทยาการข้อมูลเบื้องต้น -->
+<tr class="hover:bg-surface-container-low transition-colors duration-150" data-module="M1" data-semester="Y1T1">
+<td class="py-space-sm px-space-md sticky left-0 bg-surface-container-lowest font-data-mono text-data-mono font-semibold text-primary shadow-[1px_0_0_0_#dce9ff]">32211169</td>
+<td class="py-space-sm px-space-md sticky left-[100px] bg-surface-container-lowest font-medium shadow-[1px_0_0_0_#dce9ff]">
+<div class="flex flex-col">
+<span class="text-on-surface font-semibold">วิทยาการข้อมูลเบื้องต้นและการโปรแกรม</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Intro to Data Science &amp; Python (ปี 1 เทอม 1)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-surface-container-high text-primary">M1: Foundation</span>
+</td>
+<td class="py-space-sm px-space-xs text-center font-data-mono">3(2-2-5)</td>
+<!-- PLO1 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface font-data-mono text-label-sm">I 5%</span>
+</td>
+<!-- PLO2 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface font-data-mono text-label-sm">I 6%</span>
+</td>
+<!-- PLO3 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-data-mono text-label-sm font-semibold">R 8%</span>
+</td>
+<!-- PLO4 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface font-data-mono text-label-sm">I 4%</span>
+</td>
+<!-- PLO5 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-data-mono text-label-sm font-semibold">P 6%</span>
+</td>
+<!-- PLO6 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO7 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO8 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-surface-container-highest text-on-surface font-data-mono text-label-sm">I 4%</span>
+</td>
+<!-- PLO9 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<td class="py-space-sm px-space-sm text-center font-data-mono font-bold text-primary">33%</td>
+</tr>
+<!-- Row 3: 88590269 SQL & Database -->
+<tr class="hover:bg-surface-container-low transition-colors duration-150" data-module="M2" data-semester="Y1T2">
+<td class="py-space-sm px-space-md sticky left-0 bg-surface-container-lowest font-data-mono text-data-mono font-semibold text-primary shadow-[1px_0_0_0_#dce9ff]">88590269</td>
+<td class="py-space-sm px-space-md sticky left-[100px] bg-surface-container-lowest font-medium shadow-[1px_0_0_0_#dce9ff]">
+<div class="flex flex-col">
+<span class="text-on-surface font-semibold">ระบบฐานข้อมูลและการเขียนคิวรี SQL</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Database Systems &amp; SQL Query (ปี 1 เทอม 2)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-surface-container-high text-primary">M2: Data Handling</span>
+</td>
+<td class="py-space-sm px-space-xs text-center font-data-mono">3(2-2-5)</td>
+<!-- PLO1 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-data-mono text-label-sm font-semibold">R 6%</span>
+</td>
+<!-- PLO2 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO3 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 16%</span>
+</td>
+<!-- PLO4 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO5 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO6 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-data-mono text-label-sm font-semibold">R 5%</span>
+</td>
+<!-- PLO7 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO8 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-data-mono text-label-sm font-semibold">R 5%</span>
+</td>
+<!-- PLO9 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<td class="py-space-sm px-space-sm text-center font-data-mono font-bold text-primary">32%</td>
+</tr>
+<!-- Row 4: 32225169 Machine Learning -->
+<tr class="hover:bg-surface-container-low transition-colors duration-150" data-module="M4" data-semester="Y2T1">
+<td class="py-space-sm px-space-md sticky left-0 bg-surface-container-lowest font-data-mono text-data-mono font-semibold text-primary shadow-[1px_0_0_0_#dce9ff]">32225169</td>
+<td class="py-space-sm px-space-md sticky left-[100px] bg-surface-container-lowest font-medium shadow-[1px_0_0_0_#dce9ff]">
+<div class="flex flex-col">
+<span class="text-on-surface font-semibold">การเรียนรู้ของเครื่องและการวิเคราะห์ขั้นสูง</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Machine Learning &amp; Advanced Analytics (ปี 2 เทอม 1)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-surface-container-high text-primary">M4: Data Modeler</span>
+</td>
+<td class="py-space-sm px-space-xs text-center font-data-mono">3(2-2-5)</td>
+<!-- PLO1 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-data-mono text-label-sm font-semibold">R 4%</span>
+</td>
+<!-- PLO2 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-data-mono text-label-sm font-semibold">P 14%</span>
+</td>
+<!-- PLO3 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-data-mono text-label-sm font-semibold">R 6%</span>
+</td>
+<!-- PLO4 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 22%</span>
+</td>
+<!-- PLO5 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO6 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-data-mono text-label-sm font-semibold">P 8%</span>
+</td>
+<!-- PLO7 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO8 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-data-mono text-label-sm font-semibold">P 6%</span>
+</td>
+<!-- PLO9 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<td class="py-space-sm px-space-sm text-center font-data-mono font-bold text-primary">60%</td>
+</tr>
+<!-- Row 5: 88590769 Data Viz -->
+<tr class="hover:bg-surface-container-low transition-colors duration-150" data-module="M3" data-semester="Y2T2">
+<td class="py-space-sm px-space-md sticky left-0 bg-surface-container-lowest font-data-mono text-data-mono font-semibold text-primary shadow-[1px_0_0_0_#dce9ff]">88590769</td>
+<td class="py-space-sm px-space-md sticky left-[100px] bg-surface-container-lowest font-medium shadow-[1px_0_0_0_#dce9ff]">
+<div class="flex flex-col">
+<span class="text-on-surface font-semibold">การสร้างภาพข้อมูลและการสื่อสารสารสนเทศ</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Data Visualization &amp; BI Dashboard (ปี 2 เทอม 2)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-surface-container-high text-primary">M3: Descriptive</span>
+</td>
+<td class="py-space-sm px-space-xs text-center font-data-mono">3(2-2-5)</td>
+<!-- PLO1 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO2 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO3 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-data-mono text-label-sm font-semibold">R 6%</span>
+</td>
+<!-- PLO4 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO5 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 24%</span>
+</td>
+<!-- PLO6 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-data-mono text-label-sm font-semibold">P 10%</span>
+</td>
+<!-- PLO7 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-data-mono text-label-sm font-semibold">R 7%</span>
+</td>
+<!-- PLO8 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO9 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<td class="py-space-sm px-space-sm text-center font-data-mono font-bold text-primary">47%</td>
+</tr>
+<!-- Row 6: 32246169 WIL 1 -->
+<tr class="hover:bg-surface-container-low transition-colors duration-150" data-module="M6" data-semester="Y3T2">
+<td class="py-space-sm px-space-md sticky left-0 bg-surface-container-lowest font-data-mono text-data-mono font-semibold text-primary shadow-[1px_0_0_0_#dce9ff]">32246169</td>
+<td class="py-space-sm px-space-md sticky left-[100px] bg-surface-container-lowest font-medium shadow-[1px_0_0_0_#dce9ff]">
+<div class="flex flex-col">
+<span class="text-on-surface font-semibold">การเรียนรู้ร่วมการทำงานในอุตสาหกรรม 1</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Work-Integrated Learning I (ปี 3 เทอม 2)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-surface-container-high text-primary">M6: Career Starter</span>
+</td>
+<td class="py-space-sm px-space-xs text-center font-data-mono">6(0-40-0)</td>
+<!-- PLO1 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 15%</span>
+</td>
+<!-- PLO2 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-data-mono text-label-sm font-semibold">P 10%</span>
+</td>
+<!-- PLO3 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 14%</span>
+</td>
+<!-- PLO4 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 16%</span>
+</td>
+<!-- PLO5 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 18%</span>
+</td>
+<!-- PLO6 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 25%</span>
+</td>
+<!-- PLO7 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 20%</span>
+</td>
+<!-- PLO8 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 22%</span>
+</td>
+<!-- PLO9 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 26%</span>
+</td>
+<td class="py-space-sm px-space-sm text-center font-data-mono font-bold text-primary">166%</td>
+</tr>
+<!-- Row 7: Additional representative core course (MLOps / Big Data) -->
+<tr class="hover:bg-surface-container-low transition-colors duration-150" data-module="M5" data-semester="Y3T1">
+<td class="py-space-sm px-space-md sticky left-0 bg-surface-container-lowest font-data-mono text-data-mono font-semibold text-primary shadow-[1px_0_0_0_#dce9ff]">32233169</td>
+<td class="py-space-sm px-space-md sticky left-[100px] bg-surface-container-lowest font-medium shadow-[1px_0_0_0_#dce9ff]">
+<div class="flex flex-col">
+<span class="text-on-surface font-semibold">วิศวกรรมการเรียนรู้ของเครื่องและการวางระบบ (MLOps)</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Machine Learning Engineering (ปี 3 เทอม 1)</span>
+</div>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-surface-container-high text-primary">M5: ML Engineer</span>
+</td>
+<td class="py-space-sm px-space-xs text-center font-data-mono">3(2-2-5)</td>
+<!-- PLO1 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-data-mono text-label-sm font-semibold">R 5%</span>
+</td>
+<!-- PLO2 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-data-mono text-label-sm font-semibold">P 8%</span>
+</td>
+<!-- PLO3 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 15%</span>
+</td>
+<!-- PLO4 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-data-mono text-label-sm font-bold">M 18%</span>
+</td>
+<!-- PLO5 -->
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<!-- PLO6 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-data-mono text-label-sm font-semibold">P 12%</span>
+</td>
+<!-- PLO7 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-data-mono text-label-sm font-semibold">R 6%</span>
+</td>
+<!-- PLO8 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-data-mono text-label-sm font-semibold">P 10%</span>
+</td>
+<!-- PLO9 -->
+<td class="py-space-sm px-space-xs text-center cursor-pointer hover:scale-105 transition-transform">
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-data-mono text-label-sm font-semibold">R 6%</span>
+</td>
+<td class="py-space-sm px-space-sm text-center font-data-mono font-bold text-primary">80%</td>
+</tr>
+<!-- Other Core Courses aggregated representation -->
+<tr class="bg-surface-container-low/40">
+<td class="py-space-xs px-space-md font-label-sm text-label-sm text-on-surface-variant italic" colspan="4">
+                + รวมอีก 22 รายวิชาในหลักสูตร (วิชาสัมมนา, โครงงานวิทยาการข้อมูล, แคลคูลัสสำหรับวิทยาการข้อมูล, สถิติวิศวกรรม...)
+              </td>
+<td class="py-space-xs px-space-xs text-center font-data-mono font-semibold text-on-surface-variant">52%</td>
+<td class="py-space-xs px-space-xs text-center font-data-mono font-semibold text-on-surface-variant">62%</td>
+<td class="py-space-xs px-space-xs text-center font-data-mono font-semibold text-on-surface-variant">41%</td>
+<td class="py-space-xs px-space-xs text-center font-data-mono font-semibold text-on-surface-variant">40%</td>
+<td class="py-space-xs px-space-xs text-center font-data-mono font-semibold text-on-surface-variant">48%</td>
+<td class="py-space-xs px-space-xs text-center font-data-mono font-semibold text-on-surface-variant">45%</td>
+<td class="py-space-xs px-space-xs text-center font-data-mono font-semibold text-on-surface-variant">64%</td>
+<td class="py-space-xs px-space-xs text-center font-data-mono font-semibold text-on-surface-variant">53%</td>
+<td class="py-space-xs px-space-xs text-center font-data-mono font-semibold text-on-surface-variant">58%</td>
+<td class="py-space-xs px-space-sm text-center font-data-mono font-bold text-on-surface-variant">463%</td>
+</tr>
+</tbody>
+<!-- SUMMARY FOOTER ROW -->
+<tfoot>
+<tr class="bg-primary text-on-primary font-headline-sm text-[13px] font-bold select-none">
+<td class="py-space-md px-space-md sticky left-0 z-20 bg-primary shadow-[1px_0_0_0_#17365d]" colspan="4">
+<div class="flex items-center justify-between">
+<span>ผลรวมน้ำหนักความรับผิดชอบ (Cumulative PLO Weights)</span>
+<span class="px-space-xs py-0.5 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check</span> ครบ 100% ทุก PLO
+                  </span>
+</div>
+</td>
+<!-- PLO1 sum -->
+<td class="py-space-md px-space-xs text-center bg-primary">
+<div class="flex flex-col items-center">
+<span class="text-secondary-fixed font-data-mono text-body-md font-bold">100%</span>
+<span class="text-[10px] text-surface-container-high font-normal">Valid</span>
+</div>
+</td>
+<!-- PLO2 sum -->
+<td class="py-space-md px-space-xs text-center bg-primary">
+<div class="flex flex-col items-center">
+<span class="text-secondary-fixed font-data-mono text-body-md font-bold">100%</span>
+<span class="text-[10px] text-surface-container-high font-normal">Valid</span>
+</div>
+</td>
+<!-- PLO3 sum -->
+<td class="py-space-md px-space-xs text-center bg-primary">
+<div class="flex flex-col items-center">
+<span class="text-secondary-fixed font-data-mono text-body-md font-bold">100%</span>
+<span class="text-[10px] text-surface-container-high font-normal">Valid</span>
+</div>
+</td>
+<!-- PLO4 sum -->
+<td class="py-space-md px-space-xs text-center bg-primary">
+<div class="flex flex-col items-center">
+<span class="text-secondary-fixed font-data-mono text-body-md font-bold">100%</span>
+<span class="text-[10px] text-surface-container-high font-normal">Valid</span>
+</div>
+</td>
+<!-- PLO5 sum -->
+<td class="py-space-md px-space-xs text-center bg-primary">
+<div class="flex flex-col items-center">
+<span class="text-secondary-fixed font-data-mono text-body-md font-bold">100%</span>
+<span class="text-[10px] text-surface-container-high font-normal">Valid</span>
+</div>
+</td>
+<!-- PLO6 sum -->
+<td class="py-space-md px-space-xs text-center bg-primary">
+<div class="flex flex-col items-center">
+<span class="text-secondary-fixed font-data-mono text-body-md font-bold">100%</span>
+<span class="text-[10px] text-surface-container-high font-normal">Valid</span>
+</div>
+</td>
+<!-- PLO7 sum -->
+<td class="py-space-md px-space-xs text-center bg-primary">
+<div class="flex flex-col items-center">
+<span class="text-secondary-fixed font-data-mono text-body-md font-bold">100%</span>
+<span class="text-[10px] text-surface-container-high font-normal">Valid</span>
+</div>
+</td>
+<!-- PLO8 sum -->
+<td class="py-space-md px-space-xs text-center bg-primary">
+<div class="flex flex-col items-center">
+<span class="text-secondary-fixed font-data-mono text-body-md font-bold">100%</span>
+<span class="text-[10px] text-surface-container-high font-normal">Valid</span>
+</div>
+</td>
+<!-- PLO9 sum -->
+<td class="py-space-md px-space-xs text-center bg-primary">
+<div class="flex flex-col items-center">
+<span class="text-secondary-fixed font-data-mono text-body-md font-bold">100%</span>
+<span class="text-[10px] text-surface-container-high font-normal">Valid</span>
+</div>
+</td>
+<td class="py-space-md px-space-sm text-center bg-primary text-secondary-fixed font-data-mono font-bold">900%</td>
+</tr>
+</tfoot>
+</table>
+</div>
+</div>
+</div>
+<!-- VIEW 2: Elective Mapping Tab Content -->
+<div class="hidden flex flex-col gap-space-md" id="view-electives">
+<div class="p-space-md bg-surface-container-lowest rounded-xl shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-md mb-space-md">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary">เมทริกซ์ความสอดคล้องรายวิชาเอกเลือก (Electives IRPM Mapping)</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            รายวิชาเลือกที่นิสิตเลือกเรียนเพื่อเสริมสร้างความเชี่ยวชาญเฉพาะทาง (Specialized Tracks) ไม่คิดรวมในผลรวม 100% ภาคบังคับ
+          </p>
+</div>
+<div class="flex items-center gap-space-sm">
+<span class="px-space-sm py-1 rounded bg-surface-container text-primary font-label-sm text-label-sm">
+            หมวดวิชาเลือกเฉพาะกลุ่ม: AI &amp; Deep Learning / Big Data &amp; Cloud / Business Analytics
+          </span>
+</div>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-low text-on-surface font-label-sm text-label-sm uppercase tracking-wider">
+<th class="py-space-sm px-space-md min-w-[110px]">รหัสวิชา</th>
+<th class="py-space-sm px-space-md min-w-[220px]">ชื่อรายวิชาเอกเลือก</th>
+<th class="py-space-sm px-space-md min-w-[160px]">กลุ่มความเชี่ยวชาญ</th>
+<th class="py-space-sm px-space-xs text-center">หน่วยกิต</th>
+<th class="py-space-sm px-space-xs text-center">PLO 1</th>
+<th class="py-space-sm px-space-xs text-center">PLO 2</th>
+<th class="py-space-sm px-space-xs text-center">PLO 3</th>
+<th class="py-space-sm px-space-xs text-center">PLO 4</th>
+<th class="py-space-sm px-space-xs text-center">PLO 5</th>
+<th class="py-space-sm px-space-xs text-center">PLO 6</th>
+<th class="py-space-sm px-space-xs text-center">PLO 7</th>
+<th class="py-space-sm px-space-xs text-center">PLO 8</th>
+<th class="py-space-sm px-space-xs text-center">PLO 9</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container font-body-sm text-body-sm text-on-surface">
+<!-- Elective 1 -->
+<tr class="hover:bg-surface-container-low transition-colors duration-150">
+<td class="py-space-sm px-space-md font-data-mono font-semibold text-primary">32247169</td>
+<td class="py-space-sm px-space-md">
+<span class="font-semibold block text-on-surface">การเรียนรู้ร่วมการทำงานในอุตสาหกรรม 2</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Work-Integrated Learning II</span>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-secondary-fixed/50 text-on-secondary-fixed-variant">Track: WIL Intensive</span>
+</td>
+<td class="py-space-sm px-space-xs text-center font-data-mono">6(0-40-0)</td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-bold text-label-sm">P</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+</tr>
+<!-- Elective 2 -->
+<tr class="hover:bg-surface-container-low transition-colors duration-150">
+<td class="py-space-sm px-space-md font-data-mono font-semibold text-primary">32247669</td>
+<td class="py-space-sm px-space-md">
+<span class="font-semibold block text-on-surface">ระเบียบวิธีวิจัยทางวิทยาการข้อมูล</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Data Science Research Methodology</span>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-tertiary-fixed/50 text-tertiary">Track: Academic &amp; R&amp;D</span>
+</td>
+<td class="py-space-sm px-space-xs text-center font-data-mono">3(3-0-6)</td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-bold text-label-sm">P</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-bold text-label-sm">P</span></td>
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-bold text-label-sm">R</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-bold text-label-sm">P</span></td>
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-bold text-label-sm">R</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-bold text-label-sm">P</span></td>
+</tr>
+<!-- Elective 3 -->
+<tr class="hover:bg-surface-container-low transition-colors duration-150">
+<td class="py-space-sm px-space-md font-data-mono font-semibold text-primary">32248169</td>
+<td class="py-space-sm px-space-md">
+<span class="font-semibold block text-on-surface">วิจัยวิทยาการข้อมูลขั้นสูง</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Advanced Scientific Data Research</span>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-tertiary-fixed/50 text-tertiary">Track: Academic &amp; R&amp;D</span>
+</td>
+<td class="py-space-sm px-space-xs text-center font-data-mono">3(0-6-3)</td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-bold text-label-sm">P</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-bold text-label-sm">P</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-bold text-label-sm">P</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-bold text-label-sm">R</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+</tr>
+<!-- Elective 4 -->
+<tr class="hover:bg-surface-container-low transition-colors duration-150">
+<td class="py-space-sm px-space-md font-data-mono font-semibold text-primary">32235269</td>
+<td class="py-space-sm px-space-md">
+<span class="font-semibold block text-on-surface">การประมวลผลภาษาธรรมชาติและการวิเคราะห์ข้อความ</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Natural Language Processing (NLP)</span>
+</td>
+<td class="py-space-sm px-space-md">
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-surface-container-high text-primary">Track: AI Specialist</span>
+</td>
+<td class="py-space-sm px-space-xs text-center font-data-mono">3(2-2-5)</td>
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-bold text-label-sm">R</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-bold text-label-sm">P</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed-variant font-bold text-label-sm">M</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-tertiary-fixed/60 text-tertiary font-bold text-label-sm">R</span></td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-bold text-label-sm">P</span></td>
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+<td class="py-space-sm px-space-xs text-center"><span class="px-2 py-0.5 rounded bg-secondary-fixed/60 text-on-secondary-fixed font-bold text-label-sm">P</span></td>
+<td class="py-space-sm px-space-xs text-center text-on-surface-variant/40">-</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<!-- VIEW 3: Audit 100% Weight Verification View -->
+<div class="hidden flex flex-col gap-space-md" id="view-audit">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-space-md">
+<!-- Validation Summary Card -->
+<div class="lg:col-span-1 p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs text-secondary font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-[24px]">verified_user</span>
+<span>ตรวจสอบผลรวม 100% สมบูรณ์</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            ตามเกณฑ์มาตรฐาน OBE ระบบตรวจสอบว่าน้ำหนักร้อยละของรายวิชาทั้งหมดที่ผูกกับแต่ละ PLO มีผลบวกเท่ากับ 100.0% ไม่มีส่วนขาดหรือส่วนเกิน
+          </p>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1 mt-space-sm">
+<div class="flex justify-between text-body-sm">
+<span class="text-on-surface-variant">เกณฑ์ขั้นต่ำรายวิชาต่อ PLO:</span>
+<span class="font-semibold text-primary">≥ 4 วิชา</span>
+</div>
+<div class="flex justify-between text-body-sm">
+<span class="text-on-surface-variant">ระดับ Mastery สูงสุด:</span>
+<span class="font-semibold text-primary">PLO 4, 6 (ML &amp; Industry)</span>
+</div>
+<div class="flex justify-between text-body-sm">
+<span class="text-on-surface-variant">สถานะการตรวจสอบล่าสุด:</span>
+<span class="font-semibold text-secondary">ผ่านการตรวจสอบแล้ว</span>
+</div>
+</div>
+</div>
+<button class="w-full mt-space-md py-space-sm px-space-md rounded-lg bg-primary text-on-primary font-label-md text-label-md font-semibold flex items-center justify-center gap-space-xs hover:bg-primary-container transition-all" onclick="simulateRecheck()">
+<span class="material-symbols-outlined text-[18px]">sync</span>
+<span>รันการตรวจสอบเชิงลึกซ้ำ (Re-run Audit Engine)</span>
+</button>
+</div>
+<!-- Detail PLO Weight Breakdown List -->
+<div class="lg:col-span-2 p-space-lg rounded-xl bg-surface-container-lowest shadow-sm flex flex-col gap-space-md">
+<h3 class="font-headline-sm text-headline-sm text-primary flex items-center justify-between">
+<span>รายละเอียดการกระจายน้ำหนัก PLO 1 - PLO 9</span>
+<span class="font-label-sm text-label-sm text-secondary font-normal flex items-center gap-1">
+<span class="w-2 h-2 rounded-full bg-secondary"></span> 9 จาก 9 PLO ถูกต้องสมบูรณ์
+          </span>
+</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-sm">
+<!-- PLO 1 Item -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md font-bold text-primary">PLO 1: Ethics &amp; Law</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary-container text-on-secondary-container font-data-mono text-[11px] font-bold">100%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full" style="width: 100%"></div>
+</div>
+<span class="font-label-sm text-[11px] text-on-surface-variant">6 รายวิชา (I:1, R:2, P:1, M:2)</span>
+</div>
+<!-- PLO 2 Item -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md font-bold text-primary">PLO 2: Math &amp; Stat</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary-container text-on-secondary-container font-data-mono text-[11px] font-bold">100%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full" style="width: 100%"></div>
+</div>
+<span class="font-label-sm text-[11px] text-on-surface-variant">7 รายวิชา (I:2, R:2, P:2, M:1)</span>
+</div>
+<!-- PLO 3 Item -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md font-bold text-primary">PLO 3: Data Pipeline</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary-container text-on-secondary-container font-data-mono text-[11px] font-bold">100%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full" style="width: 100%"></div>
+</div>
+<span class="font-label-sm text-[11px] text-on-surface-variant">8 รายวิชา (I:1, R:3, P:1, M:3)</span>
+</div>
+<!-- PLO 4 Item -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md font-bold text-primary">PLO 4: ML &amp; AI</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary-container text-on-secondary-container font-data-mono text-[11px] font-bold">100%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full" style="width: 100%"></div>
+</div>
+<span class="font-label-sm text-[11px] text-on-surface-variant">8 รายวิชา (I:1, R:2, P:1, M:4)</span>
+</div>
+<!-- PLO 5 Item -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md font-bold text-primary">PLO 5: Visual Story</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary-container text-on-secondary-container font-data-mono text-[11px] font-bold">100%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full" style="width: 100%"></div>
+</div>
+<span class="font-label-sm text-[11px] text-on-surface-variant">5 รายวิชา (I:1, R:1, P:1, M:2)</span>
+</div>
+<!-- PLO 6 Item -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md font-bold text-primary">PLO 6: Business Problem</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary-container text-on-secondary-container font-data-mono text-[11px] font-bold">100%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full" style="width: 100%"></div>
+</div>
+<span class="font-label-sm text-[11px] text-on-surface-variant">7 รายวิชา (I:0, R:2, P:2, M:3)</span>
+</div>
+<!-- PLO 7 Item -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md font-bold text-primary">PLO 7: Collaboration</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary-container text-on-secondary-container font-data-mono text-[11px] font-bold">100%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full" style="width: 100%"></div>
+</div>
+<span class="font-label-sm text-[11px] text-on-surface-variant">6 รายวิชา (I:1, R:2, P:1, M:2)</span>
+</div>
+<!-- PLO 8 Item -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md font-bold text-primary">PLO 8: Research/Lifelong</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary-container text-on-secondary-container font-data-mono text-[11px] font-bold">100%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full" style="width: 100%"></div>
+</div>
+<span class="font-label-sm text-[11px] text-on-surface-variant">7 รายวิชา (I:1, R:2, P:2, M:2)</span>
+</div>
+<!-- PLO 9 Item -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex flex-col gap-1">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md font-bold text-primary">PLO 9: Professionalism</span>
+<span class="px-1.5 py-0.5 rounded bg-secondary-container text-on-secondary-container font-data-mono text-[11px] font-bold">100%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full" style="width: 100%"></div>
+</div>
+<span class="font-label-sm text-[11px] text-on-surface-variant">5 รายวิชา (I:0, R:1, P:2, M:2)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Slide-over / Modal for Weight Fine-Tuning -->
+<div class="fixed inset-0 bg-primary/40 backdrop-blur-xs z-50 hidden flex items-center justify-center p-space-md" id="weightModal">
+<div class="bg-surface-container-lowest rounded-xl shadow-xl w-full max-w-md p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-primary flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-primary">edit_attributes</span>
+<span>แก้ไขระดับ IRPM และค่าน้ำหนัก</span>
+</h3>
+<button class="text-on-surface-variant hover:text-primary" onclick="closeModal()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant" id="modalCourseTitle">วิชา: 32210169 จริยธรรมข้อมูล</span>
+<span class="font-label-md text-label-md font-semibold text-primary" id="modalPloTarget">เป้าหมาย: PLO 1 (จริยธรรมและกฎหมายดิจิทัล)</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<label class="font-label-sm text-label-sm font-semibold text-on-surface">เลือกระดับการเรียนรู้ (IRPM Level):</label>
+<div class="grid grid-cols-4 gap-space-xs" id="levelSelector">
+<button class="p-2 rounded border border-outline-variant text-center font-label-md text-label-md font-bold hover:bg-surface-container-high transition-all" data-lvl="I" onclick="selectLevel('I')" type="button">I</button>
+<button class="p-2 rounded border border-outline-variant text-center font-label-md text-label-md font-bold hover:bg-surface-container-high transition-all" data-lvl="R" onclick="selectLevel('R')" type="button">R</button>
+<button class="p-2 rounded border border-outline-variant text-center font-label-md text-label-md font-bold hover:bg-surface-container-high transition-all" data-lvl="P" onclick="selectLevel('P')" type="button">P</button>
+<button class="p-2 rounded bg-primary text-on-primary text-center font-label-md text-label-md font-bold transition-all" data-lvl="M" onclick="selectLevel('M')" type="button">M</button>
+</div>
+</div>
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-sm text-label-sm font-semibold text-on-surface" for="weightInput">ค่าน้ำหนักความรับผิดชอบ (%):</label>
+<div class="relative">
+<input class="w-full p-space-sm rounded-lg bg-surface-container-low font-data-mono text-body-md font-bold text-primary focus:outline-none focus:bg-surface-container-lowest" id="weightInput" max="100" min="0" type="number" value="18"/>
+<span class="absolute right-3 top-2.5 font-data-mono text-body-sm text-on-surface-variant">%</span>
+</div>
+<span class="font-label-sm text-[11px] text-on-surface-variant">ข้อแนะนำ: ผลรวมน้ำหนักทั้งหลักสูตรของ PLO นี้ต้องรวมได้ 100% พอดี</span>
+</div>
+<div class="flex items-center justify-end gap-space-sm mt-space-sm">
+<button class="px-space-md py-space-xs rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container transition-all" onclick="closeModal()">ยกเลิก</button>
+<button class="px-space-md py-space-xs rounded-lg bg-primary text-on-primary font-label-md text-label-md font-semibold hover:bg-primary-container transition-all" onclick="saveModalChanges()">บันทึกค่า</button>
+</div>
+</div>
+</div>
+<!-- Notification Toast Container -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-space-sm px-space-md py-space-sm rounded-xl bg-primary text-on-primary shadow-xl" id="toastNotification">
+<span class="material-symbols-outlined text-secondary-fixed text-[20px]" id="toastIcon">check_circle</span>
+<span class="font-label-md text-label-md font-medium" id="toastMessage">บันทึกการปรับน้ำหนักสำเร็จ</span>
+</div>
+</div>
+<script>
+  let activeView = 'core';
+  let currentTargetCell = null;
+  let selectedLevel = 'M';
+
+  function switchView(viewName) {
+    activeView = viewName;
+    const views = ['core', 'electives', 'audit'];
+    views.forEach(v => {
+      const container = document.getElementById(`view-${v}`);
+      const tabBtn = document.getElementById(`tab-${v}`);
+      if (v === viewName) {
+        container.classList.remove('hidden');
+        tabBtn.className = "px-space-md py-space-xs rounded-lg font-label-md text-label-md font-semibold transition-all bg-primary-container text-on-primary shadow-sm flex items-center gap-1.5";
+      } else {
+        container.classList.add('hidden');
+        tabBtn.className = "px-space-md py-space-xs rounded-lg font-label-md text-label-md font-semibold transition-all text-on-surface-variant hover:text-on-surface flex items-center gap-1.5";
+      }
+    });
+  }
+
+  function filterTable() {
+    const searchVal = document.getElementById('searchInput').value.toLowerCase().trim();
+    const semVal = document.getElementById('semesterFilter').value;
+    const modVal = document.getElementById('moduleFilter').value;
+
+    const rows = document.querySelectorAll('#matrixTableBody tr');
+    rows.forEach(row => {
+      if (row.children.length === 1) return; // skip summary info rows
+      const textContent = row.textContent.toLowerCase();
+      const rowSem = row.getAttribute('data-semester') || '';
+      const rowMod = row.getAttribute('data-module') || '';
+
+      const matchSearch = !searchVal || textContent.includes(searchVal);
+      const matchSem = semVal === 'ALL' || rowSem === semVal;
+      const matchMod = modVal === 'ALL' || rowMod === modVal;
+
+      if (matchSearch && matchSem && matchMod) {
+        row.style.display = '';
+      } else {
+        row.style.display = 'none';
+      }
+    });
+  }
+
+  function editWeight(cell, courseCode, plo) {
+    currentTargetCell = cell;
+    const modal = document.getElementById('weightModal');
+    const title = document.getElementById('modalCourseTitle');
+    const ploLabel = document.getElementById('modalPloTarget');
+    const input = document.getElementById('weightInput');
+
+    title.innerText = `รหัสวิชา: ${courseCode}`;
+    ploLabel.innerText = `การตั้งค่าน้ำหนัก: ${plo}`;
+
+    const badge = cell.querySelector('span');
+    if (badge) {
+      const parts = badge.innerText.trim().split(' ');
+      if (parts.length === 2) {
+        selectLevel(parts[0]);
+        input.value = parts[1].replace('%', '');
+      }
+    } else {
+      selectLevel('R');
+      input.value = '5';
+    }
+
+    modal.classList.remove('hidden');
+  }
+
+  function selectLevel(lvl) {
+    selectedLevel = lvl;
+    const buttons = document.querySelectorAll('#levelSelector button');
+    buttons.forEach(btn => {
+      if (btn.getAttribute('data-lvl') === lvl) {
+        btn.className = "p-2 rounded bg-primary text-on-primary text-center font-label-md text-label-md font-bold transition-all";
+      } else {
+        btn.className = "p-2 rounded border border-outline-variant text-center font-label-md text-label-md font-bold hover:bg-surface-container-high transition-all";
+      }
+    });
+  }
+
+  function closeModal() {
+    document.getElementById('weightModal').classList.add('hidden');
+    currentTargetCell = null;
+  }
+
+  function saveModalChanges() {
+    if (!currentTargetCell) return;
+    const val = document.getElementById('weightInput').value || '0';
+
+    let colorClass = "bg-surface-container-highest text-on-surface";
+    if (selectedLevel === 'R') colorClass = "bg-tertiary-fixed/60 text-tertiary";
+    if (selectedLevel === 'P') colorClass = "bg-secondary-fixed/60 text-on-secondary-fixed";
+    if (selectedLevel === 'M') colorClass = "bg-primary-fixed text-on-primary-fixed-variant";
+
+    currentTargetCell.innerHTML = `<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded ${colorClass} font-data-mono text-label-sm font-bold">${selectedLevel} ${val}%</span>`;
+    
+    closeModal();
+    showToast(`อัปเดตน้ำหนักเป็น ${selectedLevel} ${val}% สำเร็จ`);
+  }
+
+  function runValidation() {
+    const btn = document.getElementById('validateBtn');
+    btn.classList.add('opacity-70', 'cursor-wait');
+    showToast('กำลังตรวจสอบความสอดคล้องหลักสูตรและ IRPM...');
+
+    setTimeout(() => {
+      btn.classList.remove('opacity-70', 'cursor-wait');
+      showToast('ตรวจสอบสำเร็จ: ทุก PLO ครบ 100% ตามเกณฑ์ OBE');
+    }, 800);
+  }
+
+  function simulateRecheck() {
+    showToast('รันการวิเคราะห์ Matrix Coverage PLO 1 - PLO 9 ครบสมบูรณ์');
+  }
+
+  function exportModal() {
+    showToast('กำลังเตรียมไฟล์ดาวน์โหลด Matrix (Excel / TQF3 Format)...');
+  }
+
+  function showToast(msg) {
+    const toast = document.getElementById('toastNotification');
+    const text = document.getElementById('toastMessage');
+    text.innerText = msg;
+    toast.classList.remove('translate-y-20', 'opacity-0');
+    toast.classList.add('translate-y-0', 'opacity-100');
+
+    setTimeout(() => {
+      toast.classList.remove('translate-y-0', 'opacity-100');
+      toast.classList.add('translate-y-20', 'opacity-0');
+    }, 2800);
+  }
+</script></main></div></body></html>
